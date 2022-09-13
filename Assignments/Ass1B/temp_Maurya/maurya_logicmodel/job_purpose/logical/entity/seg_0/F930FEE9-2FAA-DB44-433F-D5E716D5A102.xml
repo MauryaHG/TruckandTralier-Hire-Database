@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F930FEE9-2FAA-DB44-433F-D5E716D5A102" name="TRALIERCLASS">
+<createdBy>Maurya Gamage</createdBy>
+<createdTime>2022-09-13 03:06:52 UTC</createdTime>
+<ownerDesignName>job_purpose</ownerDesignName>
+<engineerTo>
+<item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="tralier_manufacturer" id="6716160D-CC18-FB59-9F96-8AD85758E27C">
+<createdBy>Maurya Gamage</createdBy>
+<createdTime>2022-09-13 03:07:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[tralier manufacturer name]]></commentInRDBMS>
+<ownerDesignName>job_purpose</ownerDesignName>
+<engineerTo>
+<item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tralier_model" id="0723E5C1-3956-EB2A-ED24-8D058F4815FA">
+<createdBy>Maurya Gamage</createdBy>
+<createdTime>2022-09-13 03:07:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[tralier model name]]></commentInRDBMS>
+<ownerDesignName>job_purpose</ownerDesignName>
+<engineerTo>
+<item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tralier_class" id="6135A633-79B3-2810-0941-0F5CC6DE0411">
+<createdBy>Maurya Gamage</createdBy>
+<createdTime>2022-09-13 03:08:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[tralier claass value]]></commentInRDBMS>
+<ownerDesignName>job_purpose</ownerDesignName>
+<engineerTo>
+<item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2FDA437D-713C-224F-A6D9-17E665E5CF1A" name="tralierclass PK">
+<createdBy>Maurya Gamage</createdBy>
+<createdTime>2022-09-13 03:07:35 UTC</createdTime>
+<ownerDesignName>job_purpose</ownerDesignName>
+<engineerTo>
+<item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6716160D-CC18-FB59-9F96-8AD85758E27C</attributeRef>
+<attributeRef>0723E5C1-3956-EB2A-ED24-8D058F4815FA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
