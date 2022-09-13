@@ -110,7 +110,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>3</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="emp_no" id="7753619A-78BF-6958-8E7B-DB426FBB9FB3">
 <createdBy>Maurya Gamage</createdBy>
