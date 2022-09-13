@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="job_purpose" id="E8E52618-E4EF-C9D3-A6C4-AC512FA98FA1" version="3.5">
-<createdBy>Maurya Gamage</createdBy>
-<createdTime>2022-09-12 08:44:16 UTC</createdTime>
-<ownerDesignName>job_purpose</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>E8E52618-E4EF-C9D3-A6C4-AC512FA98FA1</designId>
-</OSDM_Design>
