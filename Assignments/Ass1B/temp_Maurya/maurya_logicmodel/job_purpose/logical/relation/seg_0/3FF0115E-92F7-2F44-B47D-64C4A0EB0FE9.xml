@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="employee_combo" directorySegmentName="seg_0" id="3FF0115E-92F7-2F44-B47D-64C4A0EB0FE9">
+<createdBy>Maurya Gamage</createdBy>
+<createdTime>2022-09-13 10:06:00 UTC</createdTime>
+<ownerDesignName>job_purpose</ownerDesignName>
+<engineerTo>
+<item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
+</engineerTo>
+<sourcePk>306ED2CC-AC22-5055-C59B-3ACCA670ECC9</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>aproves </nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D0C7E582-59F7-41AA-61CC-0E970A838D3F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D827CD88-C39C-AD30-6B96-867235C0BBD7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -57,7 +57,7 @@
 <dataTypeSize>15 CHAR</dataTypeSize>
 <ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="tralier_manufacturer" id="9FF82BBB-4058-0AEF-91F4-8BA0C9D4147A">
+<Attribute name="trailclass_manufacturer" id="9FF82BBB-4058-0AEF-91F4-8BA0C9D4147A">
 <createdBy>Maurya Gamage</createdBy>
 <createdTime>2022-09-13 03:09:15 UTC</createdTime>
 <commentInRDBMS><![CDATA[tralier manufacturer name]]></commentInRDBMS>
@@ -71,9 +71,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>15 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="tralier_model" id="A5F9394F-C42E-3D6C-CB70-5650E2296F4E">
+<Attribute name="trailclass_model" id="A5F9394F-C42E-3D6C-CB70-5650E2296F4E">
 <createdBy>Maurya Gamage</createdBy>
 <createdTime>2022-09-13 03:09:15 UTC</createdTime>
 <commentInRDBMS><![CDATA[tralier model name]]></commentInRDBMS>
@@ -87,7 +87,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>3 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

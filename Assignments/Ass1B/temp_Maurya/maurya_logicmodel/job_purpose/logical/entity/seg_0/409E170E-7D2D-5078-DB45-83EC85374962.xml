@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="13D0D2CC-4E05-8761-E96F-85B289EF905E" name="TRUCK">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="409E170E-7D2D-5078-DB45-83EC85374962" name="JOB">
 <createdBy>Maurya Gamage</createdBy>
-<createdTime>2022-09-13 01:06:36 UTC</createdTime>
+<createdTime>2022-09-13 09:05:51 UTC</createdTime>
 <ownerDesignName>job_purpose</ownerDesignName>
 <engineerTo>
 <item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
@@ -15,38 +15,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="truck_vin" id="75B842CB-E3A8-3006-4867-291BDB5B0D28">
+<Attribute name="job_no" id="9FA0D110-9991-F970-518F-C4CE72DE5D96">
 <createdBy>Maurya Gamage</createdBy>
-<createdTime>2022-09-13 01:07:22 UTC</createdTime>
-<commentInRDBMS><![CDATA[truck VIN number]]></commentInRDBMS>
-<ownerDesignName>job_purpose</ownerDesignName>
-<engineerTo>
-<item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>17</dataTypeSize>
-<ownDataTypeParameters>17,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="truck_rego_no" id="DF43C834-D996-6DE2-4D6E-39A9415B2AA8">
-<createdBy>Maurya Gamage</createdBy>
-<createdTime>2022-09-13 01:09:33 UTC</createdTime>
-<commentInRDBMS><![CDATA[truck registration number]]></commentInRDBMS>
-<ownerDesignName>job_purpose</ownerDesignName>
-<engineerTo>
-<item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>9</dataTypeSize>
-<ownDataTypeParameters>9,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="truck_km_travelled" id="817505C2-6694-8EE8-D121-5FAF8A3019E3">
-<createdBy>Maurya Gamage</createdBy>
-<createdTime>2022-09-13 08:32:47 UTC</createdTime>
-<commentInRDBMS><![CDATA[kilometers travelled]]></commentInRDBMS>
+<createdTime>2022-09-13 09:05:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[job id number]]></commentInRDBMS>
 <ownerDesignName>job_purpose</ownerDesignName>
 <engineerTo>
 <item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
@@ -54,42 +26,13 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="truck_km_last_serviced" id="5954237E-56B7-AA3E-1633-514FD78BBECD">
+<Attribute name="job_pickup_date_time" id="C3E9AF21-AE70-EEF4-261B-53BD3B43FAE0">
 <createdBy>Maurya Gamage</createdBy>
-<createdTime>2022-09-13 08:33:35 UTC</createdTime>
-<commentInRDBMS><![CDATA[kilometers since last service]]></commentInRDBMS>
-<ownerDesignName>job_purpose</ownerDesignName>
-<engineerTo>
-<item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,5,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="truck_purchase_cost" id="431D559B-B475-D61E-4CA7-A9CC9432923F">
-<createdBy>Maurya Gamage</createdBy>
-<createdTime>2022-09-13 08:33:57 UTC</createdTime>
-<commentInRDBMS><![CDATA[cost of truck]]></commentInRDBMS>
-<ownerDesignName>job_purpose</ownerDesignName>
-<engineerTo>
-<item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>8</dataTypePrecision>
-<dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,8,2</ownDataTypeParameters>
-</Attribute>
-<Attribute name="truck_purchase_date" id="DB1619CB-AF33-74C5-FDB8-046E33D2FA2C">
-<createdBy>Maurya Gamage</createdBy>
-<createdTime>2022-09-13 08:34:30 UTC</createdTime>
-<commentInRDBMS><![CDATA[Date of purchase]]></commentInRDBMS>
+<createdTime>2022-09-13 09:06:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[pick up time]]></commentInRDBMS>
 <ownerDesignName>job_purpose</ownerDesignName>
 <engineerTo>
 <item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
@@ -99,51 +42,104 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="trkclass_make" id="5D0919F8-ECAC-25AE-E2CD-E21CD9A953AE">
+<Attribute name="job_intended_dropoff_date_time" id="C223CDFD-98F6-0AA3-A655-6F2FE0F2952E">
 <createdBy>Maurya Gamage</createdBy>
-<createdTime>2022-09-13 10:00:55 UTC</createdTime>
-<commentInRDBMS><![CDATA[make of the truck]]></commentInRDBMS>
-<generatorID>B26A472A-693B-D244-6E83-01A1300A68CF</generatorID>
+<createdTime>2022-09-13 09:11:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[expected drop off time]]></commentInRDBMS>
 <ownerDesignName>job_purpose</ownerDesignName>
 <engineerTo>
 <item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
 </engineerTo>
-<referedAttribute>5E55298F-3958-A843-2629-8D50D65F1347</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>5 CHAR</dataTypeSize>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="trkclass_model" id="2944FE94-08C7-F209-E80B-A50336A7D350">
+<Attribute name="job_actual_dropoff_date_time" id="16C5B2F8-8FA5-8A5A-D503-8D74887C0656">
 <createdBy>Maurya Gamage</createdBy>
-<createdTime>2022-09-13 10:00:55 UTC</createdTime>
-<commentInRDBMS><![CDATA[model of the truck]]></commentInRDBMS>
-<generatorID>B26A472A-693B-D244-6E83-01A1300A68CF</generatorID>
+<createdTime>2022-09-13 09:11:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[actuall drop off time]]></commentInRDBMS>
 <ownerDesignName>job_purpose</ownerDesignName>
 <engineerTo>
 <item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
 </engineerTo>
-<referedAttribute>DEF60CCE-2990-3B9E-BFEE-ABFE38018B32</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>5 CHAR</dataTypeSize>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="job_cost" id="AF78CFE6-C112-8268-2959-9ACF334309EF">
+<createdBy>Maurya Gamage</createdBy>
+<createdTime>2022-09-13 09:12:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[job cost]]></commentInRDBMS>
+<ownerDesignName>job_purpose</ownerDesignName>
+<engineerTo>
+<item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="job_date_paid" id="B04E77A2-1671-8408-23A1-ACFD74EF70BE">
+<createdBy>Maurya Gamage</createdBy>
+<createdTime>2022-09-13 09:12:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[date job payment was made]]></commentInRDBMS>
+<ownerDesignName>job_purpose</ownerDesignName>
+<engineerTo>
+<item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="combo_code" id="42BEF38E-627B-C5F1-AE92-64696BD70AB3">
+<createdBy>Maurya Gamage</createdBy>
+<createdTime>2022-09-13 09:52:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[truck and tralier combo code value]]></commentInRDBMS>
+<generatorID>2B74E951-5B38-A5BE-8FD7-E288B43B7804</generatorID>
+<ownerDesignName>job_purpose</ownerDesignName>
+<engineerTo>
+<item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
+</engineerTo>
+<referedAttribute>7B3BEB2B-B7C3-C598-6F86-D8A3FE84134E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="emp_no" id="7753619A-78BF-6958-8E7B-DB426FBB9FB3">
+<createdBy>Maurya Gamage</createdBy>
+<createdTime>2022-09-13 10:03:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[employee number]]></commentInRDBMS>
+<generatorID>F467B6C9-F8BF-0F81-B1C5-F0E92884AF7B</generatorID>
+<ownerDesignName>job_purpose</ownerDesignName>
+<engineerTo>
+<item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
+</engineerTo>
+<referedAttribute>8A97FA21-2B3E-7B3C-8C65-04ED0B9A25C1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="3383033C-B992-5EF4-7AA8-D42AB9CCB636" name="TRUCK PK">
+<identifier id="02266F57-394C-B4ED-90E9-C04FAAA21446" name="JOB PK">
 <createdBy>Maurya Gamage</createdBy>
-<createdTime>2022-09-13 01:08:55 UTC</createdTime>
+<createdTime>2022-09-13 09:06:09 UTC</createdTime>
 <ownerDesignName>job_purpose</ownerDesignName>
 <engineerTo>
 <item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>75B842CB-E3A8-3006-4867-291BDB5B0D28</attributeRef>
-<attributeRef>DF43C834-D996-6DE2-4D6E-39A9415B2AA8</attributeRef>
+<attributeRef>9FA0D110-9991-F970-518F-C4CE72DE5D96</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

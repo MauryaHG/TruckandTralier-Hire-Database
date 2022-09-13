@@ -43,7 +43,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="truck_vin" id="E5BB30F8-9507-1F62-D358-59D0DD3F65BD">
 <createdBy>Maurya Gamage</createdBy>
@@ -59,6 +59,38 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>17</dataTypeSize>
+<ownDataTypeParameters>17,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="truck_rego_no" id="80FF0BFB-5D0F-FC6E-ADB6-D8E135B8C9A5">
+<createdBy>Maurya Gamage</createdBy>
+<createdTime>2022-09-13 08:51:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[truck registration number]]></commentInRDBMS>
+<generatorID>226281D9-3A60-AAF2-66AB-2BD0978EE154</generatorID>
+<ownerDesignName>job_purpose</ownerDesignName>
+<engineerTo>
+<item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
+</engineerTo>
+<referedAttribute>DF43C834-D996-6DE2-4D6E-39A9415B2AA8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="emp_no" id="3B6CCAED-B35C-4D1F-BC1B-52615CF2A784">
+<createdBy>Maurya Gamage</createdBy>
+<createdTime>2022-09-13 10:06:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[employee number]]></commentInRDBMS>
+<generatorID>3FF0115E-92F7-2F44-B47D-64C4A0EB0FE9</generatorID>
+<ownerDesignName>job_purpose</ownerDesignName>
+<engineerTo>
+<item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
+</engineerTo>
+<referedAttribute>8A97FA21-2B3E-7B3C-8C65-04ED0B9A25C1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

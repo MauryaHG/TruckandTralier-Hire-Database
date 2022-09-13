@@ -1,0 +1,195 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D0C7E582-59F7-41AA-61CC-0E970A838D3F" name="EMPLOYEE">
+<createdBy>Maurya Gamage</createdBy>
+<createdTime>2022-09-13 08:14:27 UTC</createdTime>
+<ownerDesignName>job_purpose</ownerDesignName>
+<engineerTo>
+<item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="emp_no" id="8A97FA21-2B3E-7B3C-8C65-04ED0B9A25C1">
+<createdBy>Maurya Gamage</createdBy>
+<createdTime>2022-09-13 08:15:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[employee number]]></commentInRDBMS>
+<ownerDesignName>job_purpose</ownerDesignName>
+<engineerTo>
+<item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="emp_role" id="B95B8B28-35A8-0E26-551D-D03ADF9A20CE">
+<createdBy>Maurya Gamage</createdBy>
+<createdTime>2022-09-13 08:19:02 UTC</createdTime>
+<commentInRDBMS><![CDATA[employee role]]></commentInRDBMS>
+<ownerDesignName>job_purpose</ownerDesignName>
+<engineerTo>
+<item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="emp_tfn" id="FCC4E534-AA12-572B-B217-B00DD54C5580">
+<createdBy>Maurya Gamage</createdBy>
+<createdTime>2022-09-13 08:20:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Employee TFN number]]></commentInRDBMS>
+<ownerDesignName>job_purpose</ownerDesignName>
+<engineerTo>
+<item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9 CHAR</dataTypeSize>
+<ownDataTypeParameters>9 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="emp_famname" id="4BED905A-23F8-6ECC-D4A8-42F43CE80153">
+<createdBy>Maurya Gamage</createdBy>
+<createdTime>2022-09-13 08:22:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[employee family name]]></commentInRDBMS>
+<ownerDesignName>job_purpose</ownerDesignName>
+<engineerTo>
+<item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="emp_givenname" id="220E7D31-5816-F101-47DB-66E05BAE44C0">
+<createdBy>Maurya Gamage</createdBy>
+<createdTime>2022-09-13 08:15:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[employee given name]]></commentInRDBMS>
+<ownerDesignName>job_purpose</ownerDesignName>
+<engineerTo>
+<item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="emp_contact_no" id="3CBCA116-3DDF-9A0C-BDF9-37F2A6EB658B">
+<createdBy>Maurya Gamage</createdBy>
+<createdTime>2022-09-13 08:23:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[employee phone number]]></commentInRDBMS>
+<ownerDesignName>job_purpose</ownerDesignName>
+<engineerTo>
+<item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="emp_salary" id="96F1E16B-36BD-BC97-D548-839C0497C902">
+<createdBy>Maurya Gamage</createdBy>
+<createdTime>2022-09-13 08:24:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[Employee salary from 0- 999,99.00]]></commentInRDBMS>
+<ownerDesignName>job_purpose</ownerDesignName>
+<engineerTo>
+<item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="emp_licence_no" id="9969C5D4-CA70-D590-0B6B-F846B994459F">
+<createdBy>Maurya Gamage</createdBy>
+<createdTime>2022-09-13 08:25:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Employee licence number if he has]]></commentInRDBMS>
+<ownerDesignName>job_purpose</ownerDesignName>
+<engineerTo>
+<item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="emp_highest_class" id="D31BFFC5-8F5D-EB6F-0F7D-FF9CBF349811">
+<createdBy>Maurya Gamage</createdBy>
+<createdTime>2022-09-13 08:27:02 UTC</createdTime>
+<commentInRDBMS><![CDATA[employee assigned class]]></commentInRDBMS>
+<ownerDesignName>job_purpose</ownerDesignName>
+<engineerTo>
+<item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="emp_no1" id="ABCCBA8C-6662-D94E-DF25-A002921A8758">
+<createdBy>Maurya Gamage</createdBy>
+<createdTime>2022-09-13 10:01:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[employee number]]></commentInRDBMS>
+<generatorID>D2EEB3E2-D856-3E7F-6D9D-9E3B2C053CFB</generatorID>
+<ownerDesignName>job_purpose</ownerDesignName>
+<engineerTo>
+<item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>8A97FA21-2B3E-7B3C-8C65-04ED0B9A25C1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="job_no" id="60191034-E341-AC33-519C-B84BEEA40A83">
+<createdBy>Maurya Gamage</createdBy>
+<createdTime>2022-09-13 10:04:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[job id number]]></commentInRDBMS>
+<generatorID>F467B6C9-F8BF-0F81-B1C5-F0E92884AF7B</generatorID>
+<ownerDesignName>job_purpose</ownerDesignName>
+<engineerTo>
+<item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
+</engineerTo>
+<referedAttribute>9FA0D110-9991-F970-518F-C4CE72DE5D96</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="306ED2CC-AC22-5055-C59B-3ACCA670ECC9" name="EMPLOYEE PK">
+<createdBy>Maurya Gamage</createdBy>
+<createdTime>2022-09-13 08:15:37 UTC</createdTime>
+<ownerDesignName>job_purpose</ownerDesignName>
+<engineerTo>
+<item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8A97FA21-2B3E-7B3C-8C65-04ED0B9A25C1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

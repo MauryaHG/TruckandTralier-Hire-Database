@@ -1,0 +1,178 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="11979487-648D-4292-A558-EF0098D18C8C" name="QUOTE">
+<createdBy>Maurya Gamage</createdBy>
+<createdTime>2022-09-13 08:47:56 UTC</createdTime>
+<ownerDesignName>job_purpose</ownerDesignName>
+<engineerTo>
+<item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="quote_no" id="AB2965B5-E0BD-AC4E-68F3-C3C13B3662F8">
+<createdBy>Maurya Gamage</createdBy>
+<createdTime>2022-09-13 08:48:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[quote number]]></commentInRDBMS>
+<ownerDesignName>job_purpose</ownerDesignName>
+<engineerTo>
+<item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quote_start_date" id="A29CE9C2-F274-655F-0A4E-C21BCA370825">
+<createdBy>Maurya Gamage</createdBy>
+<createdTime>2022-09-13 08:59:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[Job start date]]></commentInRDBMS>
+<ownerDesignName>job_purpose</ownerDesignName>
+<engineerTo>
+<item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quote_pickup_loc" id="F4C5D32A-C080-59CD-B8E2-352037BF2DF9">
+<createdBy>Maurya Gamage</createdBy>
+<createdTime>2022-09-13 09:00:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[pick up location]]></commentInRDBMS>
+<ownerDesignName>job_purpose</ownerDesignName>
+<engineerTo>
+<item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quote_dropoff_loc" id="D9647688-EC2B-E485-9885-C0EE1A6D714B">
+<createdBy>Maurya Gamage</createdBy>
+<createdTime>2022-09-13 09:00:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[drop off location]]></commentInRDBMS>
+<ownerDesignName>job_purpose</ownerDesignName>
+<engineerTo>
+<item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quote_prep_date" id="388487CD-E3E3-38F8-0814-5B07587BF04C">
+<createdBy>Maurya Gamage</createdBy>
+<createdTime>2022-09-13 08:48:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[Date quote was prepared]]></commentInRDBMS>
+<ownerDesignName>job_purpose</ownerDesignName>
+<engineerTo>
+<item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quote_cost" id="2218B1F6-9C32-BB7C-5247-B1D8CB421C94">
+<createdBy>Maurya Gamage</createdBy>
+<createdTime>2022-09-13 08:49:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[quote cost]]></commentInRDBMS>
+<ownerDesignName>job_purpose</ownerDesignName>
+<engineerTo>
+<item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quote_days_required" id="8D46A5F5-1628-DD4D-1957-0D1B8F9E30D9">
+<createdBy>Maurya Gamage</createdBy>
+<createdTime>2022-09-13 08:49:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[number of days truck and tralier need to be hired for]]></commentInRDBMS>
+<ownerDesignName>job_purpose</ownerDesignName>
+<engineerTo>
+<item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quote_status" id="441D53F5-F390-6F7F-BB55-AB34C0C7D3B1">
+<createdBy>Maurya Gamage</createdBy>
+<createdTime>2022-09-13 09:02:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[status of quote/job]]></commentInRDBMS>
+<ownerDesignName>job_purpose</ownerDesignName>
+<engineerTo>
+<item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cust_no" id="98DD6571-D5E3-547B-8A00-8C13DB750F4E">
+<createdBy>Maurya Gamage</createdBy>
+<createdTime>2022-09-13 09:23:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[customer number]]></commentInRDBMS>
+<generatorID>D4DBFC5A-E1B1-CF4E-E021-69A4E752FB23</generatorID>
+<ownerDesignName>job_purpose</ownerDesignName>
+<engineerTo>
+<item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
+</engineerTo>
+<referedAttribute>E8393D41-8AC1-4248-D732-A89351493BE2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="emp_no" id="D8B7AF2B-F426-74FA-0EE2-B90649EEB133">
+<createdBy>Maurya Gamage</createdBy>
+<createdTime>2022-09-13 09:51:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[employee number]]></commentInRDBMS>
+<generatorID>CAC21CA6-5F1A-E1D0-2E70-C059909AE414</generatorID>
+<ownerDesignName>job_purpose</ownerDesignName>
+<engineerTo>
+<item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
+</engineerTo>
+<referedAttribute>8A97FA21-2B3E-7B3C-8C65-04ED0B9A25C1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1462C3E6-DE9C-2DBB-36F3-955D64D8E951" name="QUOTE PK">
+<createdBy>Maurya Gamage</createdBy>
+<createdTime>2022-09-13 08:48:17 UTC</createdTime>
+<ownerDesignName>job_purpose</ownerDesignName>
+<engineerTo>
+<item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AB2965B5-E0BD-AC4E-68F3-C3C13B3662F8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
