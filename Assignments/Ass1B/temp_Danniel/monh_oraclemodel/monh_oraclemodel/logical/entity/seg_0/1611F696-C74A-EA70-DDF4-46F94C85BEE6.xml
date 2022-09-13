@@ -106,10 +106,15 @@
 <engineerTo>
 <item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
 </engineerTo>
+<constraintName>chk_quotesatus</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="F" description="Fulfilled"/>
+<valueDef value="U" description="Unfulfilled"/>
+</listOfValues>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="emp_no" id="5F3EE377-B7EF-8BD4-7BBD-1E10B2FFFF84">
