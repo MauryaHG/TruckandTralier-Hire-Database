@@ -32,16 +32,16 @@
 <Attribute name="truck_reg_no" id="E74067BA-EA00-E5E6-418D-5F007CD092B4">
 <createdBy>Luigi</createdBy>
 <createdTime>2022-09-11 10:26:27 UTC</createdTime>
-<commentInRDBMS><![CDATA[The registration number (i.e., plate number) of the truck.]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[The registration number of the truck.]]></commentInRDBMS>
 <ownerDesignName>monh_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>6</dataTypeSize>
-<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="truck_km_travelled" id="38E38A87-DFCB-0BA9-45C6-19124B4ED746">
 <createdBy>Luigi</createdBy>

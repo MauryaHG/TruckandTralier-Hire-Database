@@ -81,7 +81,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="clerk_no" id="4C7B9EE6-EE46-B2ED-E58B-641A3DBD10B8">
 <createdBy>Luigi</createdBy>
@@ -97,7 +97,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="combo_code" id="885A852E-F327-1F64-8B82-B09CA536AF8C">
 <createdBy>Luigi</createdBy>
@@ -113,9 +113,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>3</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="driver_no" id="F9E60A76-2A57-7EC2-4934-6C85E24272DA">
+<Attribute name="driver_emp_no" id="F9E60A76-2A57-7EC2-4934-6C85E24272DA">
 <createdBy>Luigi</createdBy>
 <createdTime>2022-09-13 07:20:35 UTC</createdTime>
 <commentInRDBMS><![CDATA[The unique identification number of the employee.]]></commentInRDBMS>
@@ -131,7 +131,7 @@
 <dataTypePrecision>4</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="mechanic_no" id="95EC804D-2C6F-4486-CA32-C832F1B7EC97">
+<Attribute name="mechanic_emp_no" id="95EC804D-2C6F-4486-CA32-C832F1B7EC97">
 <createdBy>Luigi</createdBy>
 <createdTime>2022-09-13 07:25:02 UTC</createdTime>
 <commentInRDBMS><![CDATA[The unique identification number of the employee.]]></commentInRDBMS>

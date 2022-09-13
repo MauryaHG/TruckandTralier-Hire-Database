@@ -70,20 +70,6 @@
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="quote_truck_purpose" id="3FDF3951-C971-5F4E-691F-1EB2942C37E8">
-<createdBy>Luigi</createdBy>
-<createdTime>2022-09-11 10:49:21 UTC</createdTime>
-<commentInRDBMS><![CDATA[The purpose that the truck will be used for.]]></commentInRDBMS>
-<ownerDesignName>monh_oraclemodel</ownerDesignName>
-<engineerTo>
-<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>200</dataTypeSize>
-<ownDataTypeParameters>200,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="quote_prep_date" id="75212C44-0338-AC63-BE6E-FDD71530E172">
 <createdBy>Luigi</createdBy>
 <createdTime>2022-09-11 10:50:18 UTC</createdTime>

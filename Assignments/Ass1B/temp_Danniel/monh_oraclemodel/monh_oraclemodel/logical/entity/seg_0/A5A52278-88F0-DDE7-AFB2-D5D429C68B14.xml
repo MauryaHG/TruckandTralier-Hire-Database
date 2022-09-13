@@ -71,7 +71,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="trailclass_model" id="EF160913-B25B-2D49-F387-079D7694DF11">
 <createdBy>Luigi</createdBy>
@@ -87,7 +87,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="trailer_load_cap" id="520F8819-1B96-37AC-0274-141E40E87E90">
 <createdBy>Luigi</createdBy>
@@ -113,9 +113,9 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
