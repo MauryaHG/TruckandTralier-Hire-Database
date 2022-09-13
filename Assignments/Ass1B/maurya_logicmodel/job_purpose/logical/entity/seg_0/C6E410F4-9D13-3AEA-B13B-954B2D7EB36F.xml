@@ -40,7 +40,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="trailer_dimensions" id="8E30853A-AB85-5C38-828C-8029598C137B">
 <createdBy>Maurya Gamage</createdBy>
@@ -53,53 +54,39 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="tralier_code1" id="2C856D9D-2DEE-AD5D-813F-610AD9FA2A37">
+<Attribute name="tralier_manufacturer" id="9FF82BBB-4058-0AEF-91F4-8BA0C9D4147A">
 <createdBy>Maurya Gamage</createdBy>
-<createdTime>2022-09-13 01:37:21 UTC</createdTime>
-<generatorID>987020E5-B5A1-C71C-A73A-B6169230034E</generatorID>
-<ownerDesignName>job_purpose</ownerDesignName>
-<engineerTo>
-<item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
-</engineerTo>
-<referedAttribute>B185A16D-F187-9D64-2763-36B696DDCB95</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="tralie_manufacturer" id="E712CF77-4AAE-5F68-73F3-820674532625">
-<createdBy>Maurya Gamage</createdBy>
-<createdTime>2022-09-13 01:37:21 UTC</createdTime>
+<createdTime>2022-09-13 03:09:15 UTC</createdTime>
 <commentInRDBMS><![CDATA[tralier manufacturer name]]></commentInRDBMS>
-<generatorID>987020E5-B5A1-C71C-A73A-B6169230034E</generatorID>
+<generatorID>0F76BA9D-E36B-A1F1-8910-E86658E3D183</generatorID>
 <ownerDesignName>job_purpose</ownerDesignName>
 <engineerTo>
 <item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
 </engineerTo>
-<referedAttribute>C3B5F463-1A16-999A-734B-71C975C9DC4B</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="tralier_model" id="8998156D-C087-7DD9-3B12-039F77D50610">
-<createdBy>Maurya Gamage</createdBy>
-<createdTime>2022-09-13 01:37:21 UTC</createdTime>
-<commentInRDBMS><![CDATA[tralier model name]]></commentInRDBMS>
-<generatorID>987020E5-B5A1-C71C-A73A-B6169230034E</generatorID>
-<ownerDesignName>job_purpose</ownerDesignName>
-<engineerTo>
-<item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
-</engineerTo>
-<referedAttribute>1E21CB71-414C-CEC4-32EE-A6955AFEDC31</referedAttribute>
+<referedAttribute>6716160D-CC18-FB59-9F96-8AD85758E27C</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>3</dataTypeSize>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tralier_model" id="A5F9394F-C42E-3D6C-CB70-5650E2296F4E">
+<createdBy>Maurya Gamage</createdBy>
+<createdTime>2022-09-13 03:09:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[tralier model name]]></commentInRDBMS>
+<generatorID>0F76BA9D-E36B-A1F1-8910-E86658E3D183</generatorID>
+<ownerDesignName>job_purpose</ownerDesignName>
+<engineerTo>
+<item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
+</engineerTo>
+<referedAttribute>0723E5C1-3956-EB2A-ED24-8D058F4815FA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

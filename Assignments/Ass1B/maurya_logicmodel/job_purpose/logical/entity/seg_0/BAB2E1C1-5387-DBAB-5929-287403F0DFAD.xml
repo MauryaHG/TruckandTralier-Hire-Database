@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="13D0D2CC-4E05-8761-E96F-85B289EF905E" name="TRUCK">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BAB2E1C1-5387-DBAB-5929-287403F0DFAD" name="PURPOSE">
 <createdBy>Maurya Gamage</createdBy>
-<createdTime>2022-09-13 01:06:36 UTC</createdTime>
+<createdTime>2022-09-13 02:25:47 UTC</createdTime>
 <ownerDesignName>job_purpose</ownerDesignName>
 <engineerTo>
 <item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
@@ -15,10 +15,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="truck_vin" id="75B842CB-E3A8-3006-4867-291BDB5B0D28">
+<Attribute name="purpose_no" id="29885355-0E88-65CD-F652-2DB0B105DC6D">
 <createdBy>Maurya Gamage</createdBy>
-<createdTime>2022-09-13 01:07:22 UTC</createdTime>
-<commentInRDBMS><![CDATA[truck VIN number]]></commentInRDBMS>
+<createdTime>2022-09-13 02:26:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[given purpose number]]></commentInRDBMS>
 <ownerDesignName>job_purpose</ownerDesignName>
 <engineerTo>
 <item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
@@ -26,13 +26,13 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>17</dataTypeSize>
-<ownDataTypeParameters>17,,</ownDataTypeParameters>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="truck_rego_no" id="DF43C834-D996-6DE2-4D6E-39A9415B2AA8">
+<Attribute name="purpose_desc" id="CB9EE481-03E7-C9D7-DB79-78B8ECF68FEE">
 <createdBy>Maurya Gamage</createdBy>
-<createdTime>2022-09-13 01:09:33 UTC</createdTime>
-<commentInRDBMS><![CDATA[truck registration number]]></commentInRDBMS>
+<createdTime>2022-09-13 02:27:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Purpose description]]></commentInRDBMS>
 <ownerDesignName>job_purpose</ownerDesignName>
 <engineerTo>
 <item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
@@ -40,21 +40,21 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>9</dataTypeSize>
-<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="3383033C-B992-5EF4-7AA8-D42AB9CCB636" name="TRUCK PK">
+<identifier id="1A387569-B1CB-D9EE-988F-BEB6CDD7A057" name="purpose PK">
 <createdBy>Maurya Gamage</createdBy>
-<createdTime>2022-09-13 01:08:55 UTC</createdTime>
+<createdTime>2022-09-13 02:26:13 UTC</createdTime>
 <ownerDesignName>job_purpose</ownerDesignName>
 <engineerTo>
 <item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>75B842CB-E3A8-3006-4867-291BDB5B0D28</attributeRef>
+<attributeRef>29885355-0E88-65CD-F652-2DB0B105DC6D</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

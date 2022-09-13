@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="tralier_combo" directorySegmentName="seg_0" id="E13A206D-1AF7-A080-5A5B-D5A15E9FDA3E">
+<createdBy>Maurya Gamage</createdBy>
+<createdTime>2022-09-13 03:21:51 UTC</createdTime>
+<ownerDesignName>job_purpose</ownerDesignName>
+<engineerTo>
+<item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
+</engineerTo>
+<sourcePk>51576641-A014-0329-C71C-2E3DE7C6C0BD</sourcePk>
+<targetPk>AD28F5F8-085C-1BDC-725D-8116A80D2404</targetPk>
+<identifying>false</identifying>
+<nameOnSource> assigned </nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C6E410F4-9D13-3AEA-B13B-954B2D7EB36F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D827CD88-C39C-AD30-6B96-867235C0BBD7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

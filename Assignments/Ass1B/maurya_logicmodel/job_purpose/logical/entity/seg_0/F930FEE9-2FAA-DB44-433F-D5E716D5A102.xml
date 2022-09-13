@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="445A93A2-48E0-9527-02AA-860ADEED4E29" name="TRAILERCLASS">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F930FEE9-2FAA-DB44-433F-D5E716D5A102" name="TRALIERCLASS">
 <createdBy>Maurya Gamage</createdBy>
-<createdTime>2022-09-13 01:19:18 UTC</createdTime>
+<createdTime>2022-09-13 03:06:52 UTC</createdTime>
 <ownerDesignName>job_purpose</ownerDesignName>
 <engineerTo>
 <item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="tralie_manufacturer" id="C3B5F463-1A16-999A-734B-71C975C9DC4B">
+<Attribute name="tralier_manufacturer" id="6716160D-CC18-FB59-9F96-8AD85758E27C">
 <createdBy>Maurya Gamage</createdBy>
-<createdTime>2022-09-13 01:29:28 UTC</createdTime>
+<createdTime>2022-09-13 03:07:01 UTC</createdTime>
 <commentInRDBMS><![CDATA[tralier manufacturer name]]></commentInRDBMS>
 <ownerDesignName>job_purpose</ownerDesignName>
 <engineerTo>
@@ -25,13 +25,13 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="tralier_model" id="1E21CB71-414C-CEC4-32EE-A6955AFEDC31">
+<Attribute name="tralier_model" id="0723E5C1-3956-EB2A-ED24-8D058F4815FA">
 <createdBy>Maurya Gamage</createdBy>
-<createdTime>2022-09-13 01:30:00 UTC</createdTime>
+<createdTime>2022-09-13 03:07:59 UTC</createdTime>
 <commentInRDBMS><![CDATA[tralier model name]]></commentInRDBMS>
 <ownerDesignName>job_purpose</ownerDesignName>
 <engineerTo>
@@ -40,13 +40,13 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>3</dataTypeSize>
-<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="trailer_class" id="6DDEA342-4933-61B7-3EB0-372AA18C602C">
+<Attribute name="tralier_class" id="6135A633-79B3-2810-0941-0F5CC6DE0411">
 <createdBy>Maurya Gamage</createdBy>
-<createdTime>2022-09-13 01:20:15 UTC</createdTime>
-<commentInRDBMS><![CDATA[tralier class value]]></commentInRDBMS>
+<createdTime>2022-09-13 03:08:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[tralier claass value]]></commentInRDBMS>
 <ownerDesignName>job_purpose</ownerDesignName>
 <engineerTo>
 <item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
@@ -54,23 +54,22 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>3</dataTypeSize>
-<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="2B5411C1-7C34-6B51-774D-577A049510F6" name="TRAILERCLASS PK">
+<identifier id="2FDA437D-713C-224F-A6D9-17E665E5CF1A" name="tralierclass PK">
 <createdBy>Maurya Gamage</createdBy>
-<createdTime>2022-09-13 01:19:49 UTC</createdTime>
+<createdTime>2022-09-13 03:07:35 UTC</createdTime>
 <ownerDesignName>job_purpose</ownerDesignName>
 <engineerTo>
 <item key="5DE26381-58B2-AD1E-53C8-CBA6100FCCF4" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>B185A16D-F187-9D64-2763-36B696DDCB95</attributeRef>
-<attributeRef>C3B5F463-1A16-999A-734B-71C975C9DC4B</attributeRef>
-<attributeRef>1E21CB71-414C-CEC4-32EE-A6955AFEDC31</attributeRef>
+<attributeRef>6716160D-CC18-FB59-9F96-8AD85758E27C</attributeRef>
+<attributeRef>0723E5C1-3956-EB2A-ED24-8D058F4815FA</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
