@@ -115,14 +115,16 @@
 <Attribute name="quote_status" id="E79A68BF-DA73-8C6E-44BA-9BE615173C0F">
 <createdBy>Luigi</createdBy>
 <createdTime>2022-09-11 10:57:48 UTC</createdTime>
-<commentInRDBMS><![CDATA[[TODO]]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[The status of the quote. A quote can either be fulfilled (F) when the clerk assigns the quote to a job, or unfulfilled (U) when a quote is rejected by the customer or they do not call back with a decision.]]></commentInRDBMS>
 <ownerDesignName>monh_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="emp_no" id="5F3EE377-B7EF-8BD4-7BBD-1E10B2FFFF84">
 <createdBy>Luigi</createdBy>
