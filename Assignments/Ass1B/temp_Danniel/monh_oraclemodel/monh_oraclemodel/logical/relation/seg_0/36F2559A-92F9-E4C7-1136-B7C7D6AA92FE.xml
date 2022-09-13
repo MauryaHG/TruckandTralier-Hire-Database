@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="QUOTE_JOB" directorySegmentName="seg_0" id="36F2559A-92F9-E4C7-1136-B7C7D6AA92FE">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-11 12:41:45 UTC</createdTime>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<sourcePk>BD1B205B-9645-C64A-C4AC-E9E0F35CE805</sourcePk>
+<targetPk>044273C8-848F-33BD-0924-16EA8890D3E9</targetPk>
+<identifying>false</identifying>
+<nameOnSource>assigned_to</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B72D3F7D-AC8A-5A58-F179-7F484D5C239B</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>1611F696-C74A-EA70-DDF4-46F94C85BEE6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

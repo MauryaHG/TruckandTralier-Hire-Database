@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E302794B-39F3-6A52-E719-795D82971768" name="COMBO">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-13 06:32:56 UTC</createdTime>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="combo_code" id="0E02EBFE-1CBC-F03D-D750-79A53612D8C6">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-13 06:33:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[The unique identification code (prefixed with the letter "C") for the truck and trailer combo.]]></commentInRDBMS>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="truck_vin" id="30B42D7C-2448-577B-30D3-26777A559492">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-13 06:47:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[The unique vehicle identification number (VIN) of the truck.]]></commentInRDBMS>
+<generatorID>5EAEE662-B6E2-0954-FC1F-85A7EE023AD8</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<referedAttribute>D1754BD4-61BB-AFED-284D-42E741B26E7B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>17</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="trailer_code" id="E3490ECC-78DD-2747-32B3-23336EB31F7F">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-13 06:48:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[The unique five-character-code identifier for the trailer.]]></commentInRDBMS>
+<generatorID>9AE5EB07-0493-54B4-C20B-CC4E9AB7827C</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<referedAttribute>3F606052-6791-C358-8C28-71F8CBCF0734</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B2636934-338B-9F80-43AE-B18685E1A16D" name="COMBO PK">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-13 06:33:16 UTC</createdTime>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0E02EBFE-1CBC-F03D-D750-79A53612D8C6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CD84FC0B-D040-28C9-8FA7-6B9779B6DFAE" name="TRUCK">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-11 10:23:07 UTC</createdTime>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="truck_vin" id="D1754BD4-61BB-AFED-284D-42E741B26E7B">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-11 10:24:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[The unique vehicle identification number (VIN) of the truck.]]></commentInRDBMS>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>17</dataTypeSize>
+<ownDataTypeParameters>17,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="truck_reg_no" id="E74067BA-EA00-E5E6-418D-5F007CD092B4">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-11 10:26:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[The registration number (i.e., plate number) of the truck.]]></commentInRDBMS>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="truck_km_travelled" id="38E38A87-DFCB-0BA9-45C6-19124B4ED746">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-11 10:28:44 UTC</createdTime>
+<commentInRDBMS><![CDATA[The number of kilometres travelled by the truck.]]></commentInRDBMS>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="truck_km_last_serviced" id="09678842-E627-4CFC-C427-63D57993FE05">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-11 10:31:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[The kilometre reading of the last service for the truck.]]></commentInRDBMS>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="truck_purchase_cost" id="ED68D444-7CA6-48DF-CF9D-6556D9C8D83C">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-11 10:32:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[The dollar cost of purchase for the truck.]]></commentInRDBMS>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="truck_purchase_date" id="A9EC7412-6C96-3C16-D1A0-E3E4E995985A">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-11 10:33:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[The date on which the truck was purchased.]]></commentInRDBMS>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="trkclass_make" id="675228E3-9DCE-4DF1-043F-5B3DFBAFB909">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-11 12:30:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[The make of a truck that is assigned to the truck class.]]></commentInRDBMS>
+<generatorID>8F5A20E7-F761-EA90-8896-28F639ADBCF3</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<referedAttribute>2901A86B-B9C2-E2FD-13E6-4D7865F4AE45</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="trkclass_model" id="F9BF9FA1-EA72-892F-226C-EF092964119B">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-11 12:30:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[The model of a truck that is assigned to the truck class.]]></commentInRDBMS>
+<generatorID>8F5A20E7-F761-EA90-8896-28F639ADBCF3</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<referedAttribute>371B773D-0DAC-7DEA-218A-C8258DCAA8A1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F3B4AA58-5A25-FE44-66C0-C9C75AA8ED6A" name="TRUCK PK">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-11 10:25:39 UTC</createdTime>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D1754BD4-61BB-AFED-284D-42E741B26E7B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="MECHANIC_JOB" directorySegmentName="seg_0" id="D5E8E225-F770-DF7E-06C0-7616B836DE4C">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-13 07:23:09 UTC</createdTime>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<sourcePk>A6E84A10-5C75-512C-4737-6229B066C0DC</sourcePk>
+<targetPk>BD1B205B-9645-C64A-C4AC-E9E0F35CE805</targetPk>
+<identifying>false</identifying>
+<nameOnSource>mechanic_for</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>14BEF757-7493-EAFD-CAE0-2053243EF624</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>B72D3F7D-AC8A-5A58-F179-7F484D5C239B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
