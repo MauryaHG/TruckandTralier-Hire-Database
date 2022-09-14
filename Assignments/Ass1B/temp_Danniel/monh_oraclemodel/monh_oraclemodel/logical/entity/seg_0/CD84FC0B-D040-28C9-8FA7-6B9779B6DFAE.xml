@@ -99,37 +99,19 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="trkclass_make" id="675228E3-9DCE-4DF1-043F-5B3DFBAFB909">
-<createdBy>Luigi</createdBy>
-<createdTime>2022-09-11 12:30:14 UTC</createdTime>
-<commentInRDBMS><![CDATA[The make of a truck that is assigned to the truck class.]]></commentInRDBMS>
+<Attribute name="trckclass_id" id="5CD170DA-F1DB-4E45-A290-92127541645C">
+<createdBy>josh</createdBy>
+<createdTime>2022-09-14 03:58:54 UTC</createdTime>
 <generatorID>8F5A20E7-F761-EA90-8896-28F639ADBCF3</generatorID>
 <ownerDesignName>monh_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
 </engineerTo>
-<referedAttribute>2901A86B-B9C2-E2FD-13E6-4D7865F4AE45</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
+<referedAttribute>6F5D825A-9152-F686-7AD6-92CDAF4F0472</referedAttribute>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="trkclass_model" id="F9BF9FA1-EA72-892F-226C-EF092964119B">
-<createdBy>Luigi</createdBy>
-<createdTime>2022-09-11 12:30:14 UTC</createdTime>
-<commentInRDBMS><![CDATA[The model of a truck that is assigned to the truck class.]]></commentInRDBMS>
-<generatorID>8F5A20E7-F761-EA90-8896-28F639ADBCF3</generatorID>
-<ownerDesignName>monh_oraclemodel</ownerDesignName>
-<engineerTo>
-<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
-</engineerTo>
-<referedAttribute>371B773D-0DAC-7DEA-218A-C8258DCAA8A1</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

@@ -1,15 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TRUCKMAKE_MAKE" directorySegmentName="seg_0" id="1B0A675F-FE82-B436-7587-80A0985D2026">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TRUCKMAKE_TRUCKCLASS" directorySegmentName="seg_0" id="D3B417B2-5C4F-1C3E-33E3-DD4EE159B681">
 <createdBy>josh</createdBy>
-<createdTime>2022-09-14 03:33:52 UTC</createdTime>
+<createdTime>2022-09-14 03:50:37 UTC</createdTime>
 <ownerDesignName>monh_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
 </engineerTo>
 <sourcePk>94F2F05E-8FCB-4D0C-7A4C-4F318A146C85</sourcePk>
-<targetPk>61517356-BA45-42C4-2E03-0350745E0BC5</targetPk>
 <identifying>false</identifying>
 <nameOnSource>identifies</nameOnSource>
+<nameOnTarget> </nameOnTarget>
 <optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

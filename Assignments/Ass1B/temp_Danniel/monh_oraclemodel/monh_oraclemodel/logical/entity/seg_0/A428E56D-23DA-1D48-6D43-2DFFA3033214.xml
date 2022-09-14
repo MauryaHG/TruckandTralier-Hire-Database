@@ -15,6 +15,20 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="trckclass_id" id="6F5D825A-9152-F686-7AD6-92CDAF4F0472">
+<createdBy>josh</createdBy>
+<createdTime>2022-09-14 03:58:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[the truck class's id (surrogate primary key)]]></commentInRDBMS>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="trkclass_make" id="2901A86B-B9C2-E2FD-13E6-4D7865F4AE45">
 <createdBy>Luigi</createdBy>
 <createdTime>2022-09-11 12:06:22 UTC</createdTime>
@@ -73,10 +87,10 @@
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,5,2</ownDataTypeParameters>
 </Attribute>
-<Attribute name="make_year" id="B0B48AF8-C4FC-A484-1A81-28E78FD86D70">
+<Attribute name="make_year" id="13B05C5C-0EF4-04F5-4952-10F070D358E5">
 <createdBy>josh</createdBy>
-<createdTime>2022-09-14 03:33:52 UTC</createdTime>
-<generatorID>1B0A675F-FE82-B436-7587-80A0985D2026</generatorID>
+<createdTime>2022-09-14 03:50:37 UTC</createdTime>
+<generatorID>D3B417B2-5C4F-1C3E-33E3-DD4EE159B681</generatorID>
 <ownerDesignName>monh_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
@@ -84,14 +98,14 @@
 <referedAttribute>FADB5328-CB5C-6FCA-2BB6-CC4D8E40200B</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>4</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="model_id" id="1A25EF01-0691-9798-28C2-FCCC2D2BD586">
+<Attribute name="model_id" id="2AC65AED-E283-A171-6BB8-BBA62118CC32">
 <createdBy>josh</createdBy>
-<createdTime>2022-09-14 03:34:46 UTC</createdTime>
-<generatorID>CD4D35E8-1290-9822-15F4-D454B0A6EC1A</generatorID>
+<createdTime>2022-09-14 03:51:01 UTC</createdTime>
+<generatorID>33AE4ED6-14D6-BF76-B84B-485004D5CBA8</generatorID>
 <ownerDesignName>monh_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
@@ -99,9 +113,9 @@
 <referedAttribute>E0A0DEB4-E17C-BF72-8C71-D2891BF6C039</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -113,6 +127,19 @@
 <item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
 </engineerTo>
 <pk>true</pk>
+<newElementsIDs>6F5D825A-9152-F686-7AD6-92CDAF4F0472</newElementsIDs>
+<usedAttributes>
+<attributeRef>6F5D825A-9152-F686-7AD6-92CDAF4F0472</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="4DDB6AD5-0D4F-85C0-8CA0-9E2E168250EA" name="TRUCKCLASS_NK">
+<createdBy>josh</createdBy>
+<createdTime>2022-09-14 03:56:47 UTC</createdTime>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<newElementsIDs>2901A86B-B9C2-E2FD-13E6-4D7865F4AE45,371B773D-0DAC-7DEA-218A-C8258DCAA8A1</newElementsIDs>
 <usedAttributes>
 <attributeRef>2901A86B-B9C2-E2FD-13E6-4D7865F4AE45</attributeRef>
 <attributeRef>371B773D-0DAC-7DEA-218A-C8258DCAA8A1</attributeRef>

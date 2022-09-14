@@ -57,38 +57,6 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="trailclass_manufacturer" id="D55D254F-4BB2-380F-0766-FFE47BE4450F">
-<createdBy>Luigi</createdBy>
-<createdTime>2022-09-11 12:33:14 UTC</createdTime>
-<commentInRDBMS><![CDATA[The manufacturer of a trailer that is assigned to the trailer class.]]></commentInRDBMS>
-<generatorID>5A1807EF-8479-5FAE-39CB-59783D466F19</generatorID>
-<ownerDesignName>monh_oraclemodel</ownerDesignName>
-<engineerTo>
-<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
-</engineerTo>
-<referedAttribute>4FFD9226-18A4-2CB3-7194-9A73328AAF50</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="trailclass_model" id="EF160913-B25B-2D49-F387-079D7694DF11">
-<createdBy>Luigi</createdBy>
-<createdTime>2022-09-11 12:33:14 UTC</createdTime>
-<commentInRDBMS><![CDATA[The model of a trailer that is assigned to the trailer class.]]></commentInRDBMS>
-<generatorID>5A1807EF-8479-5FAE-39CB-59783D466F19</generatorID>
-<ownerDesignName>monh_oraclemodel</ownerDesignName>
-<engineerTo>
-<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
-</engineerTo>
-<referedAttribute>5C46B2B7-CBC7-F2AE-CF4F-EE4354FFD6F3</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="trailer_load_cap" id="520F8819-1B96-37AC-0274-141E40E87E90">
 <createdBy>Luigi</createdBy>
 <createdTime>2022-09-13 06:54:51 UTC</createdTime>
@@ -116,6 +84,20 @@
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>11</dataTypeSize>
 <ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="trailclass_id" id="6C670745-D7E9-DE1A-7DA3-8EB2F3A30898">
+<createdBy>josh</createdBy>
+<createdTime>2022-09-14 04:01:03 UTC</createdTime>
+<generatorID>5A1807EF-8479-5FAE-39CB-59783D466F19</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<referedAttribute>60646F99-4EC0-CF02-492F-2B6F2FAD8D6C</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
