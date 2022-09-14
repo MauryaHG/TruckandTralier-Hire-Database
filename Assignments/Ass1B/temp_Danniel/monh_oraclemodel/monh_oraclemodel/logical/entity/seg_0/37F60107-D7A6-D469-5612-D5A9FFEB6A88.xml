@@ -25,11 +25,11 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="trailermodel" id="2C5610DC-0C22-A09E-CA9A-98B4B0A54FA6">
+<Attribute name="trailermodel_name" id="2C5610DC-0C22-A09E-CA9A-98B4B0A54FA6">
 <createdBy>josh</createdBy>
 <createdTime>2022-09-14 03:47:06 UTC</createdTime>
 <commentInRDBMS><![CDATA[the trailer model name]]></commentInRDBMS>
@@ -40,7 +40,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

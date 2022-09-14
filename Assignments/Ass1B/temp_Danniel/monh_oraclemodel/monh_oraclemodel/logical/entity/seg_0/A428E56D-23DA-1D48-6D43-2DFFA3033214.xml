@@ -25,37 +25,9 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="trkclass_make" id="2901A86B-B9C2-E2FD-13E6-4D7865F4AE45">
-<createdBy>Luigi</createdBy>
-<createdTime>2022-09-11 12:06:22 UTC</createdTime>
-<commentInRDBMS><![CDATA[The make of a truck that is assigned to the truck class.]]></commentInRDBMS>
-<ownerDesignName>monh_oraclemodel</ownerDesignName>
-<engineerTo>
-<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="trkclass_model" id="371B773D-0DAC-7DEA-218A-C8258DCAA8A1">
-<createdBy>Luigi</createdBy>
-<createdTime>2022-09-11 12:09:48 UTC</createdTime>
-<commentInRDBMS><![CDATA[The model of a truck that is assigned to the truck class.]]></commentInRDBMS>
-<ownerDesignName>monh_oraclemodel</ownerDesignName>
-<engineerTo>
-<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="trkclass_daily_hire_rate" id="0518AA91-DBF1-348C-F963-066954466B0D">
 <createdBy>Luigi</createdBy>
@@ -98,7 +70,8 @@
 <referedAttribute>FADB5328-CB5C-6FCA-2BB6-CC4D8E40200B</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
@@ -113,7 +86,8 @@
 <referedAttribute>E0A0DEB4-E17C-BF72-8C71-D2891BF6C039</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
@@ -139,10 +113,10 @@
 <engineerTo>
 <item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
 </engineerTo>
-<newElementsIDs>2901A86B-B9C2-E2FD-13E6-4D7865F4AE45,371B773D-0DAC-7DEA-218A-C8258DCAA8A1</newElementsIDs>
+<newElementsIDs>D3B417B2-5C4F-1C3E-33E3-DD4EE159B681,33AE4ED6-14D6-BF76-B84B-485004D5CBA8</newElementsIDs>
 <usedAttributes>
-<attributeRef>2901A86B-B9C2-E2FD-13E6-4D7865F4AE45</attributeRef>
-<attributeRef>371B773D-0DAC-7DEA-218A-C8258DCAA8A1</attributeRef>
+<attributeRef>13B05C5C-0EF4-04F5-4952-10F070D358E5</attributeRef>
+<attributeRef>2AC65AED-E283-A171-6BB8-BBA62118CC32</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

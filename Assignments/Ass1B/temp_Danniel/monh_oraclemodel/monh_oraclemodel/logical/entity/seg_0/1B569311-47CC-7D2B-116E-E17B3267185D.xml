@@ -25,37 +25,9 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="trailclass_manufacturer" id="4FFD9226-18A4-2CB3-7194-9A73328AAF50">
-<createdBy>Luigi</createdBy>
-<createdTime>2022-09-11 12:14:05 UTC</createdTime>
-<commentInRDBMS><![CDATA[The manufacturer of a trailer that is assigned to the trailer class.]]></commentInRDBMS>
-<ownerDesignName>monh_oraclemodel</ownerDesignName>
-<engineerTo>
-<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="trailclass_model" id="5C46B2B7-CBC7-F2AE-CF4F-EE4354FFD6F3">
-<createdBy>Luigi</createdBy>
-<createdTime>2022-09-11 12:16:33 UTC</createdTime>
-<commentInRDBMS><![CDATA[The model of a trailer that is assigned to the trailer class.]]></commentInRDBMS>
-<ownerDesignName>monh_oraclemodel</ownerDesignName>
-<engineerTo>
-<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="trailclass_daily_hire_rate" id="4F839D1B-A95B-B257-9931-7F31B09FB23A">
 <createdBy>Luigi</createdBy>
@@ -97,7 +69,8 @@
 <referedAttribute>53D1E4AD-11C2-9CB0-CF1E-FD1C33C69C77</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
@@ -112,7 +85,8 @@
 <referedAttribute>4537933E-F024-7256-8C4E-D40A9837E858</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
@@ -138,10 +112,10 @@
 <engineerTo>
 <item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
 </engineerTo>
-<newElementsIDs>4FFD9226-18A4-2CB3-7194-9A73328AAF50,5C46B2B7-CBC7-F2AE-CF4F-EE4354FFD6F3</newElementsIDs>
+<newElementsIDs>1274A758-AEE9-FCFA-BB40-1CB3DFD4C4FC,08CF0E33-3E42-41D8-AC52-7A51E0142C59</newElementsIDs>
 <usedAttributes>
-<attributeRef>4FFD9226-18A4-2CB3-7194-9A73328AAF50</attributeRef>
-<attributeRef>5C46B2B7-CBC7-F2AE-CF4F-EE4354FFD6F3</attributeRef>
+<attributeRef>913C7A1B-2428-6403-8119-0595ED0A2744</attributeRef>
+<attributeRef>3C21E335-EF5E-C8E5-2B03-9977A2C11355</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
