@@ -15,6 +15,20 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="trailtype_id" id="D61AAF08-680E-CC40-FB3D-E6B578175DF5">
+<createdBy>josh</createdBy>
+<createdTime>2022-09-14 05:40:44 UTC</createdTime>
+<commentInRDBMS><![CDATA[the id of the trailer type (surrogate primary key)]]></commentInRDBMS>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="manufacturer_id" id="A693B434-B02D-E21F-FFF7-89073E99ECFB">
 <createdBy>Luigi</createdBy>
 <createdTime>2022-09-14 05:26:17 UTC</createdTime>
@@ -31,7 +45,7 @@
 <dataTypePrecision>4</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="trailermodel_id" id="E5BE4072-65BF-E23F-C554-6E951A67628D">
+<Attribute name="trailmodel_id" id="E5BE4072-65BF-E23F-C554-6E951A67628D">
 <createdBy>Luigi</createdBy>
 <createdTime>2022-09-14 05:26:43 UTC</createdTime>
 <commentInRDBMS><![CDATA[the trailer model's id]]></commentInRDBMS>
@@ -61,7 +75,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -73,6 +87,19 @@
 <item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
 </engineerTo>
 <pk>true</pk>
+<newElementsIDs>D61AAF08-680E-CC40-FB3D-E6B578175DF5</newElementsIDs>
+<usedAttributes>
+<attributeRef>D61AAF08-680E-CC40-FB3D-E6B578175DF5</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="C33758F0-BA92-8818-19F4-634DDB921586" name="TRAILERTYPE_NK">
+<createdBy>josh</createdBy>
+<createdTime>2022-09-14 05:40:05 UTC</createdTime>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<newElementsIDs>A693B434-B02D-E21F-FFF7-89073E99ECFB,E5BE4072-65BF-E23F-C554-6E951A67628D</newElementsIDs>
 <usedAttributes>
 <attributeRef>A693B434-B02D-E21F-FFF7-89073E99ECFB</attributeRef>
 <attributeRef>E5BE4072-65BF-E23F-C554-6E951A67628D</attributeRef>
