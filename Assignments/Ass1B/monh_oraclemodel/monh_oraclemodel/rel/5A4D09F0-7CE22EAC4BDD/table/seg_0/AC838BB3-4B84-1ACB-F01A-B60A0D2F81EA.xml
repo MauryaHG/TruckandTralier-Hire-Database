@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AC838BB3-4B84-1ACB-F01A-B60A0D2F81EA" name="COMBO_PURPOSE">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 07:03:30 UTC</createdTime>
+<generatorID>60521AD2-89B2-82C8-02EC-B40729484938</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="purpose_no" id="3765A875-8DA3-4BAA-A0D6-0596FD55A489">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 07:03:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[The unique identification number (prefixed with the letter "P") for the truck and trailer usage purpose.]]></commentInRDBMS>
+<generatorID>FF28978D-11A4-8A89-F190-C38FB366FA14</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="94973C39-3E84-137B-FF42-C7882A4E0770" referredColumn="A9B77B8D-59D8-63AE-AEFC-67A37E46E7C8"/>
+</associations>
+</Column>
+<Column name="combo_code" id="E0712261-F93D-5F24-ADB5-5F44544D3886">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 07:03:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[The unique identification code (prefixed with the letter "C") for the truck and trailer combo.]]></commentInRDBMS>
+<generatorID>2BFFC69F-6843-EAAD-56B5-FBF114058D87</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9177D057-CCB3-A1CE-A8C4-DD5C2605F221" referredColumn="2DE368B9-215B-361B-3803-2BCBEB9D0AD3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4DA6F066-62AF-C4F8-A676-6563F3D4808D" name="COMBO_PURPOSE_PK">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 07:03:30 UTC</createdTime>
+<generatorID>4EC09D05-321B-8A01-4D71-7076DB962F2F</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3765A875-8DA3-4BAA-A0D6-0596FD55A489"/>
+<colUsage columnID="E0712261-F93D-5F24-ADB5-5F44544D3886"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="922AB191-066F-EC9C-76AF-7FADFCC11BB3" name="COMBO_COMBO_PURPOSE">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 07:03:30 UTC</createdTime>
+<generatorID>55AA26E2-564E-11BE-9CC7-C974D399B08A</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0712261-F93D-5F24-ADB5-5F44544D3886"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3EF4ECDC-29DF-70C5-D290-C7521BB4287B" name="PURPOSE_COMBO_PURPOSE">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 07:03:30 UTC</createdTime>
+<generatorID>660F3108-192E-9938-03E0-93082C1AE8E2</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3765A875-8DA3-4BAA-A0D6-0596FD55A489"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

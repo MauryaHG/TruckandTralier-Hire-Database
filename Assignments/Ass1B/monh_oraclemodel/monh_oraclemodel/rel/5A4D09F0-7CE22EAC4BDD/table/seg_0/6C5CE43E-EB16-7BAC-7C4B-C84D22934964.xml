@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6C5CE43E-EB16-7BAC-7C4B-C84D22934964" name="TRAILERMODEL">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 07:03:30 UTC</createdTime>
+<generatorID>37F60107-D7A6-D469-5612-D5A9FFEB6A88</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="trailmodel_id" id="DD7389F3-E6F6-87AA-6B74-11C41ACA152E">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 07:03:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[the trailer model's id]]></commentInRDBMS>
+<generatorID>4537933E-F024-7256-8C4E-D40A9837E858</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="trailmodel_name" id="D7B5C9FF-A77D-BF86-75D1-082B50BC91A3">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 07:03:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[the trailer model name]]></commentInRDBMS>
+<generatorID>2C5610DC-0C22-A09E-CA9A-98B4B0A54FA6</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3A34F8A0-C6F0-85EB-2445-FF090EB441F9" name="TRAILERMODEL_PK">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 07:03:30 UTC</createdTime>
+<generatorID>7844D8EF-6A65-2FF7-D32E-69F480D8CCB0</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD7389F3-E6F6-87AA-6B74-11C41ACA152E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

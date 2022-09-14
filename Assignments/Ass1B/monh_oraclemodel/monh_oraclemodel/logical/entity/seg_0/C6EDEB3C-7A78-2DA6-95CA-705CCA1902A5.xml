@@ -43,7 +43,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="trailmodel_id" id="E5BE4072-65BF-E23F-C554-6E951A67628D">
 <createdBy>Luigi</createdBy>
@@ -59,7 +59,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="trailclass_id" id="8F2E2597-0D00-99D7-A406-F737112FD23B">
 <createdBy>Luigi</createdBy>
@@ -92,9 +92,9 @@
 <attributeRef>D61AAF08-680E-CC40-FB3D-E6B578175DF5</attributeRef>
 </usedAttributes>
 </identifier>
-<identifier id="C33758F0-BA92-8818-19F4-634DDB921586" name="TRAILERTYPE_NK">
-<createdBy>josh</createdBy>
-<createdTime>2022-09-14 05:40:05 UTC</createdTime>
+<identifier id="241CEFA9-5829-3D61-91D1-C3619F9117B6" name="TRAILERTYPE_NK">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 06:54:06 UTC</createdTime>
 <ownerDesignName>monh_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>

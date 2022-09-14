@@ -1,0 +1,198 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DE9B55D1-63A9-2994-7C43-3FE6E5E952E1" name="EMPLOYEE">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 07:03:30 UTC</createdTime>
+<generatorID>14BEF757-7493-EAFD-CAE0-2053243EF624</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="emp_no" id="FBFF6DCC-890F-8036-2008-796DC31DF4B2">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 07:03:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[The unique identification number of the employee.]]></commentInRDBMS>
+<generatorID>14365ABF-993C-96C2-47E2-D1FC5C742FDE</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emp_role" id="EE9412CC-4DE9-91BF-5774-67A876D660B7">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 07:03:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[The role of the employee (C = Clerk, D = Driver, M = Mechanic, N = Manager, G = General).]]></commentInRDBMS>
+<generatorID>0A3A717E-6DB0-B21F-B68E-2A9658626F07</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<constraintName>chk_emprole</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="C" description="Clerk"/>
+<valueDef value="D" description="Driver"/>
+<valueDef value="G" description="General"/>
+<valueDef value="M" description="Mechanic"/>
+<valueDef value="N" description="Manager"/>
+</listOfValues>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emp_tfn" id="FB4FA95A-3969-0119-4077-FE764114AC24">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 07:03:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[The unique tax file number (TFN) of the employee.]]></commentInRDBMS>
+<generatorID>ACB3FAD5-5466-2A5B-A092-368A63D93057</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emp_famname" id="F7D2EA2E-C27C-0929-3BDB-08A101404C2A">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 07:03:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[The family name of the employee.]]></commentInRDBMS>
+<generatorID>8BD2EEC2-9167-6A53-EC87-6E6CAFAC1E9B</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emp_givname" id="FB31770E-360F-BCA1-4DC8-1DA2FB268135">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 07:03:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[The given name of the employee.]]></commentInRDBMS>
+<generatorID>758BE5A2-450B-012E-C746-E3F7834D2FB7</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emp_contact_no" id="5115AFBD-CE11-F775-AC3C-AA451C120BE6">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 07:03:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[The contact number of the employee.]]></commentInRDBMS>
+<generatorID>72D936A0-824F-F804-9983-E73EFB9B40E5</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emp_salary" id="A104E788-C40C-EA7B-5AB2-1AB7BFF712AB">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 07:03:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[The salary of the employee.]]></commentInRDBMS>
+<generatorID>206EC6B6-DF3A-B502-951B-194B146DB64E</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emp_licence_no" id="AB36120E-00CF-4DC6-A7CC-D3724CEFC912">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 07:03:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[The licence number of the employee (if they are a driver).]]></commentInRDBMS>
+<generatorID>15A93F36-0C31-9F2E-A133-F9E1CCD22435</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="manager_emp_no" id="83755E37-072F-0F04-D863-BC0EBE8901DA">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 07:03:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[The unique identification number of the employee.]]></commentInRDBMS>
+<generatorID>D6CF9A22-D8E5-9902-84C6-BED25C610C4B</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5F3CA7C6-4672-C5AA-48E8-9D1A25D0463F" referredColumn="FBFF6DCC-890F-8036-2008-796DC31DF4B2"/>
+</associations>
+</Column>
+<Column name="emp_highest_trckclass_id" id="3BCD42B2-4855-4360-1277-FFDFBC390D94">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 07:03:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[the truck class's id (surrogate primary key)]]></commentInRDBMS>
+<generatorID>66551039-21D1-B373-A530-E7B23DE4DD6F</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CE13709A-D2D1-7EC9-487D-7DAD044481DE" referredColumn="7279A29A-E5E0-F2B4-64FC-DA0EB35F1A5C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AFE5904B-3B1C-EB81-85E6-95F7B3015935" name="EMPLOYEE_PK">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 07:03:30 UTC</createdTime>
+<generatorID>A6E84A10-5C75-512C-4737-6229B066C0DC</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FBFF6DCC-890F-8036-2008-796DC31DF4B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="16DCA28C-F698-F929-3484-6BEF2D7BD40A" name="EMPLOYEE_EMPLOYEE">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 07:03:30 UTC</createdTime>
+<generatorID>24CE40AA-61AF-221B-9DEF-994350CC32CD</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83755E37-072F-0F04-D863-BC0EBE8901DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="35A4E49E-A3B8-E442-1C53-47FD09972974" name="TRUCKCLASS_EMPLOYEE">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 07:03:30 UTC</createdTime>
+<generatorID>5A5997C5-6F25-AF1C-C85C-F5CD02869071</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BCD42B2-4855-4360-1277-FFDFBC390D94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

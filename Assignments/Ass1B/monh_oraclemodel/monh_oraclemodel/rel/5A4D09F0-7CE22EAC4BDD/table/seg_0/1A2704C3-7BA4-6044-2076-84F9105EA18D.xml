@@ -1,0 +1,218 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1A2704C3-7BA4-6044-2076-84F9105EA18D" name="QUOTE">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 07:03:30 UTC</createdTime>
+<generatorID>1611F696-C74A-EA70-DDF4-46F94C85BEE6</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="quote_no" id="4BF60955-1F9B-D11F-C8A3-CFC1C6E90DCF">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 07:03:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[The unique identification number of the quote.]]></commentInRDBMS>
+<generatorID>B5B9070B-D661-E5C6-7CDD-DCD07DEFEE1B</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quote_start_date" id="C0F70BE6-ADE4-9777-48ED-3862C65C924A">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 07:03:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[The preferred booking start date for the quote.]]></commentInRDBMS>
+<generatorID>BA675301-C79A-DB04-34F3-D2F13B6C5770</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quote_pickup_loc" id="4D6C521B-36D8-3871-B87D-7B1A39557362">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 07:03:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[The pickup location of the quote.]]></commentInRDBMS>
+<generatorID>1EE02693-169A-C65A-86AB-8090C2D082F1</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quote_dropoff_loc" id="641F9932-1A5F-98BE-3C9B-C56369BF6D23">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 07:03:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[The drop off location of the quote.]]></commentInRDBMS>
+<generatorID>1C864F72-0274-41C8-7E0B-B05979D1AA71</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quote_prep_date" id="CFC31C44-190B-2A11-36BF-52A633A02CA1">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 07:03:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[The date on which the quote was prepared.]]></commentInRDBMS>
+<generatorID>75212C44-0338-AC63-BE6E-FDD71530E172</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quote_cost" id="50526FC4-9B1A-0A4E-8F6E-2E2FFE2E0E69">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 07:03:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[The cost of the quote. The cost is calculated by: (driver hire rate/day + truck class hire rate/day + trailer class hire rate/day) * days]]></commentInRDBMS>
+<generatorID>F232713A-6847-3BFF-E3B7-0DB74B90FB42</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quote_status" id="A3540777-6486-03EC-3AF1-52AB7D3A912C">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 07:03:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[The status of the quote. A quote can either be fulfilled (F) when the clerk assigns the quote to a job, or unfulfilled (U) when a quote is rejected by the customer or they do not call back with a decision.]]></commentInRDBMS>
+<generatorID>E79A68BF-DA73-8C6E-44BA-9BE615173C0F</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<constraintName>chk_quotesatus</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="F" description="Fulfilled"/>
+<valueDef value="U" description="Unfulfilled"/>
+</listOfValues>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emp_no" id="8F35DBA6-C07C-6740-D521-36AFC0419180">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 07:03:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[The unique identification number of the employee.]]></commentInRDBMS>
+<generatorID>5F3EE377-B7EF-8BD4-7BBD-1E10B2FFFF84</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CB0D4DB5-D0A2-6864-D79C-B00E224BD5F9" referredColumn="FBFF6DCC-890F-8036-2008-796DC31DF4B2"/>
+</associations>
+</Column>
+<Column name="cust_no" id="21410711-BAFC-B6E7-AE0D-68CC9F76B3BD">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 07:03:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[The unique identification number the customer.]]></commentInRDBMS>
+<generatorID>D962B07A-5157-52EC-F669-0B5F3FD88CF0</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6E922BEA-4D66-9BE6-04AC-F4C3E70268F8" referredColumn="2E397A0A-623A-58DF-6013-4F1C6F19172F"/>
+</associations>
+</Column>
+<Column name="purpose_no" id="B6CDC1F0-8E43-036C-0A9E-F19F6FEBB477">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 07:03:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[The unique identification number (prefixed with the letter "P") for the truck and trailer usage purpose.]]></commentInRDBMS>
+<generatorID>C5155AB7-116D-2D8D-CFD4-91E29C631EA9</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C798D132-F5F0-B9FB-2A55-9F5D4AD61083" referredColumn="A9B77B8D-59D8-63AE-AEFC-67A37E46E7C8"/>
+</associations>
+</Column>
+<Column name="quote_days_required" id="5A789F50-0B87-8AF2-F56A-67EB213B113E">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 07:03:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[The number of days required to fulfil the quote.]]></commentInRDBMS>
+<generatorID>9CFD62B2-FA7E-BC8C-D87F-A4A96DC816B8</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7B754D38-DC94-FDE7-CD7C-8377CFC09EC0" name="QUOTE_PK">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 07:03:30 UTC</createdTime>
+<generatorID>044273C8-848F-33BD-0924-16EA8890D3E9</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BF60955-1F9B-D11F-C8A3-CFC1C6E90DCF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="35E5DBB8-E55A-0C6B-4FEC-5D0DB3095FD6" name="CUSTOMER_QUOTE">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 07:03:30 UTC</createdTime>
+<generatorID>190AFE03-2D5C-5EC5-8A64-A20F979CBFFA</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21410711-BAFC-B6E7-AE0D-68CC9F76B3BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E370EF1E-7829-AE06-0C28-A92863C4AE4C" name="EMPLOYEE_QUOTE">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 07:03:30 UTC</createdTime>
+<generatorID>76FC8D37-DC63-AC7D-77BB-A145F0829E78</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F35DBA6-C07C-6740-D521-36AFC0419180"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DDD813F5-B54D-922A-A619-0B7F25554461" name="PURPOSE_QUOTE">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 07:03:30 UTC</createdTime>
+<generatorID>B3EEE8F2-8394-8E95-6357-6B3288F74A79</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6CDC1F0-8E43-036C-0A9E-F19F6FEBB477"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

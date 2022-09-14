@@ -43,7 +43,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="trckmodel_id" id="FE6B8C76-4E71-EA0B-2D27-38045A5B1E71">
 <createdBy>Luigi</createdBy>
@@ -92,9 +92,9 @@
 <attributeRef>DEE72C3E-A216-2A52-9CBA-DB5EC24DF214</attributeRef>
 </usedAttributes>
 </identifier>
-<identifier id="573FB1A5-3949-FEC2-57CE-907466297E11" name="TRUCKTYPE_NK">
-<createdBy>josh</createdBy>
-<createdTime>2022-09-14 05:35:37 UTC</createdTime>
+<identifier id="A76363BA-0402-85FD-56DC-6610DB4747BF" name="TRUCKTYPE_NK">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 06:54:56 UTC</createdTime>
 <ownerDesignName>monh_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>

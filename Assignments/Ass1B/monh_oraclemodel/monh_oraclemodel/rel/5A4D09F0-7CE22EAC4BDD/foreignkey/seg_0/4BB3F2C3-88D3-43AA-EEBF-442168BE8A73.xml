@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4BB3F2C3-88D3-43AA-EEBF-442168BE8A73" containerWithKeyObject="6BE2D39C-B9F6-95AD-25A0-AA59BC055C9D" localFKIndex="9152D293-23FE-1710-B4CF-4F386770EADF" name="QUOTE_JOB">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 07:03:30 UTC</createdTime>
+<generatorID>36F2559A-92F9-E4C7-1136-B7C7D6AA92FE</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<referredTableLongName>QUOTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1A2704C3-7BA4-6044-2076-84F9105EA18D</referredTableID>
+<keyObject>7B754D38-DC94-FDE7-CD7C-8377CFC09EC0</keyObject>
+<referredKeyID>7B754D38-DC94-FDE7-CD7C-8377CFC09EC0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>quote_no</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9FCD34C2-A7DD-AF7D-138E-149AB1512C82" name="TRAILER">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 07:03:30 UTC</createdTime>
+<generatorID>A5A52278-88F0-DDE7-AFB2-D5D429C68B14</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="trailer_code" id="6B8CBD27-E70D-BC3D-893B-7F5AF941A61E">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 07:03:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[The unique five-character-code identifier for the trailer.]]></commentInRDBMS>
+<generatorID>3F606052-6791-C358-8C28-71F8CBCF0734</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="trailer_purchase_cost" id="B1F0E481-6D38-3674-71F3-494DF80B7CD5">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 07:03:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[The dollar cost of purchase for the trailer.]]></commentInRDBMS>
+<generatorID>8C31E883-F244-5400-D3AB-599C79AF398C</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="trailer_purchase_date" id="2C5BF826-202B-D4CF-9320-D28AB3AA5E1E">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 07:03:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[The date on which the trailer was purchased.]]></commentInRDBMS>
+<generatorID>ACFF594A-3DE7-AF81-93C9-24F149102D65</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="trailer_load_cap" id="6F01EB98-F5BB-4705-067E-97A99B627D74">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 07:03:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[The load capacitiy (in kilograms) of the trailer.]]></commentInRDBMS>
+<generatorID>520F8819-1B96-37AC-0274-141E40E87E90</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="trailer_dimensions" id="1EE478FD-CC1F-1963-4AD2-27FEE4F1959C">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 07:03:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[The dimensions (LxW) (in metres) of the trailer.]]></commentInRDBMS>
+<generatorID>D5A9E655-1BF2-EEDF-A42A-61BB5967D692</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="trailclass_id" id="6D6DCB49-8781-3AC3-EE37-193E4FCCBBE9">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 07:03:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[the id of the trailer's class (surrogate primary key)]]></commentInRDBMS>
+<generatorID>6C670745-D7E9-DE1A-7DA3-8EB2F3A30898</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB3E48D7-EA64-7316-644A-5F50D61C7F7C" referredColumn="875C8ED6-D783-C5AB-BE07-4CE35C8A145C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="09BC7A19-637F-A6EE-67ED-A924E99DE52C" name="TRAILER_PK">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 07:03:30 UTC</createdTime>
+<generatorID>7482EFB5-5EA4-2E9E-A044-3A4ACD5FC5F0</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B8CBD27-E70D-BC3D-893B-7F5AF941A61E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB623CD0-5505-BB5D-4D52-4680C9A09E01" name="TRAILERCLASS_TRAILER">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 07:03:30 UTC</createdTime>
+<generatorID>5A1807EF-8479-5FAE-39CB-59783D466F19</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D6DCB49-8781-3AC3-EE37-193E4FCCBBE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
