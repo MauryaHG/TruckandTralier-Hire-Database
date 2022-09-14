@@ -42,6 +42,13 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="C" description="Clerk"/>
+<valueDef value="D" description="Driver"/>
+<valueDef value="G" description="General"/>
+<valueDef value="M" description="Mechanic"/>
+<valueDef value="N" description="Manager"/>
+</listOfValues>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="emp_tfn" id="ACB3FAD5-5466-2A5B-A092-368A63D93057">
@@ -160,7 +167,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
