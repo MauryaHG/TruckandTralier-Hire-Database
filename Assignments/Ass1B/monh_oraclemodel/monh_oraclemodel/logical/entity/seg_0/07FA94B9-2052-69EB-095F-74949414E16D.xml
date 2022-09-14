@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="07FA94B9-2052-69EB-095F-74949414E16D" name="PURPOSE">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-12 05:37:41 UTC</createdTime>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="purpose_no" id="1908ABCD-962B-CC5E-540E-223EFEB483FE">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-12 05:38:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[The unique identification number (prefixed with the letter "P") for the truck and trailer usage purpose.]]></commentInRDBMS>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="purpose_desc" id="B16E2032-DD8D-CE40-4678-8A8913DCAB5C">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-12 05:38:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[The description of the truck and trailer usage purpose.]]></commentInRDBMS>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="05B7EBCB-5D54-1DCA-7A79-D15B960BF769" name="PURPOSE PK">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-12 05:38:15 UTC</createdTime>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1908ABCD-962B-CC5E-540E-223EFEB483FE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

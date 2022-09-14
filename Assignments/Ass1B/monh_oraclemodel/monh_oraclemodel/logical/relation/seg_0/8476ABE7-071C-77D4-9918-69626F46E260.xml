@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="COMBO_JOB" directorySegmentName="seg_0" id="8476ABE7-071C-77D4-9918-69626F46E260">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-13 07:14:57 UTC</createdTime>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<sourcePk>B2636934-338B-9F80-43AE-B18685E1A16D</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>assigned_to</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E302794B-39F3-6A52-E719-795D82971768</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B72D3F7D-AC8A-5A58-F179-7F484D5C239B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,195 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B72D3F7D-AC8A-5A58-F179-7F484D5C239B" name="JOB">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-11 10:37:52 UTC</createdTime>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="job_no" id="97B12127-28A9-E293-5399-9D3BCF659E3E">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-11 10:38:02 UTC</createdTime>
+<commentInRDBMS><![CDATA[The unique identifier number of the job.]]></commentInRDBMS>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="job_pickup_datetime" id="6DB04FBC-E1BA-B3B1-51C6-4BC46024F876">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-11 10:39:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[The actual pickup date and time for the job.]]></commentInRDBMS>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="job_intended_dropoff_datetime" id="824F9494-0BC5-8799-ACEF-A45A47F7DAAF">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-11 10:41:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[The intended drop off date and time for the job.]]></commentInRDBMS>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quote_no" id="642E385B-B2C3-4548-D099-C18DF4DA7082">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-11 12:42:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[The unique identification number of the quote.]]></commentInRDBMS>
+<generatorID>36F2559A-92F9-E4C7-1136-B7C7D6AA92FE</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<referedAttribute>B5B9070B-D661-E5C6-7CDD-DCD07DEFEE1B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="clerk_no" id="4C7B9EE6-EE46-B2ED-E58B-641A3DBD10B8">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-11 12:42:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[The unique identification number of the employee.]]></commentInRDBMS>
+<generatorID>C10B8F3C-C52E-93FA-851F-70EE57A7F5F2</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<referedAttribute>14365ABF-993C-96C2-47E2-D1FC5C742FDE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="combo_code" id="885A852E-F327-1F64-8B82-B09CA536AF8C">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-13 07:14:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[The unique identification code (prefixed with the letter "C") for the truck and trailer combo.]]></commentInRDBMS>
+<generatorID>8476ABE7-071C-77D4-9918-69626F46E260</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<referedAttribute>0E02EBFE-1CBC-F03D-D750-79A53612D8C6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="driver_emp_no" id="F9E60A76-2A57-7EC2-4934-6C85E24272DA">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-13 07:20:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[The unique identification number of the employee.]]></commentInRDBMS>
+<generatorID>86716048-A069-D6A4-3560-FDCDA237CE9D</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<referedAttribute>14365ABF-993C-96C2-47E2-D1FC5C742FDE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mechanic_emp_no" id="95EC804D-2C6F-4486-CA32-C832F1B7EC97">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-13 07:25:02 UTC</createdTime>
+<commentInRDBMS><![CDATA[The unique identification number of the employee.]]></commentInRDBMS>
+<generatorID>D5E8E225-F770-DF7E-06C0-7616B836DE4C</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<referedAttribute>14365ABF-993C-96C2-47E2-D1FC5C742FDE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="job_actual_dropoff_datetime" id="213A5588-5F96-AEAB-A20D-FA4EE106F6A9">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-13 07:28:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[The actual drop off date and time for the job.]]></commentInRDBMS>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="job_cost" id="658EA270-249C-9C6C-2C90-874C811B3BC5">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-13 07:29:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[The cost of the job (if different to quote cost).]]></commentInRDBMS>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="job_date_paid" id="45D2B945-FD67-5CA4-022F-6662DFD00267">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-13 07:32:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[The date on which the customer paid for the job.]]></commentInRDBMS>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BD1B205B-9645-C64A-C4AC-E9E0F35CE805" name="JOB PK">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-11 10:38:41 UTC</createdTime>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>97B12127-28A9-E293-5399-9D3BCF659E3E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TRAILERCLASS_TRAILER" directorySegmentName="seg_0" id="5A1807EF-8479-5FAE-39CB-59783D466F19">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-11 12:33:14 UTC</createdTime>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<sourcePk>872E9EB7-222F-CA64-9755-0EECD87A9906</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>assigned_to</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1B569311-47CC-7D2B-116E-E17B3267185D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A5A52278-88F0-DDE7-AFB2-D5D429C68B14</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

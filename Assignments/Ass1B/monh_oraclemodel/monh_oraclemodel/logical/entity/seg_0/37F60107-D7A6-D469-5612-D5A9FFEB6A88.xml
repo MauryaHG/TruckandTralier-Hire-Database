@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="37F60107-D7A6-D469-5612-D5A9FFEB6A88" name="TRAILERMODEL">
+<createdBy>josh</createdBy>
+<createdTime>2022-09-14 03:46:24 UTC</createdTime>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="trailmodel_id" id="4537933E-F024-7256-8C4E-D40A9837E858">
+<createdBy>josh</createdBy>
+<createdTime>2022-09-14 03:46:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[the trailer model's id]]></commentInRDBMS>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="trailmodel_name" id="2C5610DC-0C22-A09E-CA9A-98B4B0A54FA6">
+<createdBy>josh</createdBy>
+<createdTime>2022-09-14 03:47:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[the trailer model name]]></commentInRDBMS>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7844D8EF-6A65-2FF7-D32E-69F480D8CCB0" name="TRAILERMODEL PK">
+<createdBy>josh</createdBy>
+<createdTime>2022-09-14 03:47:21 UTC</createdTime>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4537933E-F024-7256-8C4E-D40A9837E858</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

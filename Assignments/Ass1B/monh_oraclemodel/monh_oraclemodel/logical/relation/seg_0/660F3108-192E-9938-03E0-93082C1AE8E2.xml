@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PURPOSE_COMBO_PURPOSE" directorySegmentName="seg_0" id="660F3108-192E-9938-03E0-93082C1AE8E2">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-13 06:37:29 UTC</createdTime>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<sourcePk>05B7EBCB-5D54-1DCA-7A79-D15B960BF769</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>used_in</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>07FA94B9-2052-69EB-095F-74949414E16D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>60521AD2-89B2-82C8-02EC-B40729484938</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

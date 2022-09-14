@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EMPLOYEE_EMPLOYEE" directorySegmentName="seg_0" id="24CE40AA-61AF-221B-9DEF-994350CC32CD">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-11 12:45:19 UTC</createdTime>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<targetPk>A6E84A10-5C75-512C-4737-6229B066C0DC</targetPk>
+<identifying>false</identifying>
+<nameOnSource>manages</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>14BEF757-7493-EAFD-CAE0-2053243EF624</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>14BEF757-7493-EAFD-CAE0-2053243EF624</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
