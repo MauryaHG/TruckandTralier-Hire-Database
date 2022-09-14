@@ -58,7 +58,7 @@
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,5,2</ownDataTypeParameters>
 </Attribute>
-<Attribute name="trail_class_code" id="73E09BC1-5437-928A-0603-5CEA57B5DF27">
+<Attribute name="trailclass_code" id="73E09BC1-5437-928A-0603-5CEA57B5DF27">
 <createdBy>Luigi</createdBy>
 <createdTime>2022-09-13 07:08:27 UTC</createdTime>
 <commentInRDBMS><![CDATA[The "code" name of the trailer class.]]></commentInRDBMS>
