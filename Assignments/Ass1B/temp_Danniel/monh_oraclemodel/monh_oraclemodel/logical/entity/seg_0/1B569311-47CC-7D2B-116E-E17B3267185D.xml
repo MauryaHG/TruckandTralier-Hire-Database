@@ -72,6 +72,53 @@
 <dataTypeSize>3</dataTypeSize>
 <ownDataTypeParameters>3,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="trailclass_manufacturer1" id="F4DDAE7E-D9D6-4939-B847-10C62B6E78AE">
+<createdBy>josh</createdBy>
+<createdTime>2022-09-14 02:58:23 UTC</createdTime>
+<generatorID>A19BD9F5-6CCF-F2FE-16EE-D5EEB1A4607F</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>4FFD9226-18A4-2CB3-7194-9A73328AAF50</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="trailclass_model1" id="78334FA1-2870-9000-3A13-3C7D432269F3">
+<createdBy>josh</createdBy>
+<createdTime>2022-09-14 02:58:23 UTC</createdTime>
+<generatorID>A19BD9F5-6CCF-F2FE-16EE-D5EEB1A4607F</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>5C46B2B7-CBC7-F2AE-CF4F-EE4354FFD6F3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="manufacturer_id" id="913C7A1B-2428-6403-8119-0595ED0A2744">
+<createdBy>josh</createdBy>
+<createdTime>2022-09-14 03:05:44 UTC</createdTime>
+<generatorID>1274A758-AEE9-FCFA-BB40-1CB3DFD4C4FC</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<referedAttribute>53D1E4AD-11C2-9CB0-CF1E-FD1C33C69C77</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="872E9EB7-222F-CA64-9755-0EECD87A9906" name="TRAILERCLASS PK">

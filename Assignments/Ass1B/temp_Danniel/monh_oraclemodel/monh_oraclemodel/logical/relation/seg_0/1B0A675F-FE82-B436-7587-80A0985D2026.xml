@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TRUCKMAKE_MAKE" directorySegmentName="seg_0" id="1B0A675F-FE82-B436-7587-80A0985D2026">
+<createdBy>josh</createdBy>
+<createdTime>2022-09-14 03:33:52 UTC</createdTime>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<sourcePk>94F2F05E-8FCB-4D0C-7A4C-4F318A146C85</sourcePk>
+<targetPk>61517356-BA45-42C4-2E03-0350745E0BC5</targetPk>
+<identifying>false</identifying>
+<nameOnSource>identifies</nameOnSource>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>45B69508-814A-A487-45A3-50951CBA9EB3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A428E56D-23DA-1D48-6D43-2DFFA3033214</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
