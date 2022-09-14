@@ -55,18 +55,6 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="job_pay_status" id="DA1E2B6A-970D-8662-8EC8-11EC7A6B1564">
-<createdBy>Luigi</createdBy>
-<createdTime>2022-09-11 10:42:54 UTC</createdTime>
-<commentInRDBMS><![CDATA[[TODO]]]></commentInRDBMS>
-<ownerDesignName>monh_oraclemodel</ownerDesignName>
-<engineerTo>
-<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="quote_no" id="642E385B-B2C3-4548-D099-C18DF4DA7082">
 <createdBy>Luigi</createdBy>
 <createdTime>2022-09-11 12:42:39 UTC</createdTime>
@@ -129,7 +117,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="mechanic_emp_no" id="95EC804D-2C6F-4486-CA32-C832F1B7EC97">
 <createdBy>Luigi</createdBy>
@@ -145,7 +133,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="job_actual_dropoff_datetime" id="213A5588-5F96-AEAB-A20D-FA4EE106F6A9">
 <createdBy>Luigi</createdBy>
