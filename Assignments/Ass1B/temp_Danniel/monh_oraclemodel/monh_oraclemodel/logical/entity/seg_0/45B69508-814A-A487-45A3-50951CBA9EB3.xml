@@ -15,10 +15,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="make_year" id="FADB5328-CB5C-6FCA-2BB6-CC4D8E40200B">
+<Attribute name="make_id" id="FADB5328-CB5C-6FCA-2BB6-CC4D8E40200B">
 <createdBy>josh</createdBy>
 <createdTime>2022-09-14 02:49:17 UTC</createdTime>
-<commentInRDBMS><![CDATA[the character value of the year]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[the id of the make]]></commentInRDBMS>
 <ownerDesignName>monh_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
@@ -29,19 +29,19 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="year_val" id="F7FF6ECA-7014-F691-B65D-9B984F0649A3">
+<Attribute name="make_name" id="F7FF6ECA-7014-F691-B65D-9B984F0649A3">
 <createdBy>josh</createdBy>
 <createdTime>2022-09-14 03:37:43 UTC</createdTime>
-<commentInRDBMS><![CDATA[the numeric value of the year]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[the value of the make (the full name)]]></commentInRDBMS>
 <ownerDesignName>monh_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
