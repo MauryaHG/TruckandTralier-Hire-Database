@@ -4,6 +4,7 @@ SQL>Databases Week 7 Applied Class Sample Solution
 SQL>monh_schema.sql
 SQL>
 SQL>Author: Danniel You, Josh Newnham, Maurya Gamage
+SQL>Group: A01-Group14
 SQL>Date modified: 14/09/2022
 SQL>*/
 SQL> 

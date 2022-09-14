@@ -7,6 +7,7 @@ Databases Week 7 Applied Class Sample Solution
 monh_schema.sql
 
 Author: Danniel You, Josh Newnham, Maurya Gamage
+Group: A01-Group14
 Date modified: 14/09/2022
 */
 
