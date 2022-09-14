@@ -58,38 +58,6 @@
 <dataTypeSize>3</dataTypeSize>
 <ownDataTypeParameters>3,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="manufacturer_id" id="913C7A1B-2428-6403-8119-0595ED0A2744">
-<createdBy>josh</createdBy>
-<createdTime>2022-09-14 03:05:44 UTC</createdTime>
-<generatorID>1274A758-AEE9-FCFA-BB40-1CB3DFD4C4FC</generatorID>
-<ownerDesignName>monh_oraclemodel</ownerDesignName>
-<engineerTo>
-<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
-</engineerTo>
-<referedAttribute>53D1E4AD-11C2-9CB0-CF1E-FD1C33C69C77</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>4</dataTypePrecision>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="trailermodel_id" id="3C21E335-EF5E-C8E5-2B03-9977A2C11355">
-<createdBy>josh</createdBy>
-<createdTime>2022-09-14 03:48:02 UTC</createdTime>
-<generatorID>08CF0E33-3E42-41D8-AC52-7A51E0142C59</generatorID>
-<ownerDesignName>monh_oraclemodel</ownerDesignName>
-<engineerTo>
-<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
-</engineerTo>
-<referedAttribute>4537933E-F024-7256-8C4E-D40A9837E858</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>4</dataTypePrecision>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="872E9EB7-222F-CA64-9755-0EECD87A9906" name="TRAILERCLASS PK">
@@ -113,10 +81,6 @@
 <item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
 </engineerTo>
 <newElementsIDs>1274A758-AEE9-FCFA-BB40-1CB3DFD4C4FC,08CF0E33-3E42-41D8-AC52-7A51E0142C59</newElementsIDs>
-<usedAttributes>
-<attributeRef>913C7A1B-2428-6403-8119-0595ED0A2744</attributeRef>
-<attributeRef>3C21E335-EF5E-C8E5-2B03-9977A2C11355</attributeRef>
-</usedAttributes>
 </identifier>
 </identifiers>
 </Entity>

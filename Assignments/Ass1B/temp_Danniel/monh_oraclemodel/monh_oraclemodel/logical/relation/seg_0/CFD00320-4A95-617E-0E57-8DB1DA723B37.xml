@@ -1,21 +1,21 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TRUCKMAKE_TRUCKCLASS" directorySegmentName="seg_0" id="D3B417B2-5C4F-1C3E-33E3-DD4EE159B681">
-<createdBy>josh</createdBy>
-<createdTime>2022-09-14 03:50:37 UTC</createdTime>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="MAKE_TRUCKTYPE" directorySegmentName="seg_0" id="CFD00320-4A95-617E-0E57-8DB1DA723B37">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 05:22:54 UTC</createdTime>
 <ownerDesignName>monh_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
 </engineerTo>
 <sourcePk>94F2F05E-8FCB-4D0C-7A4C-4F318A146C85</sourcePk>
 <identifying>false</identifying>
-<nameOnSource>identifies</nameOnSource>
+<nameOnSource>determines</nameOnSource>
 <nameOnTarget> </nameOnTarget>
-<optionalSource>false</optionalSource>
+<optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>45B69508-814A-A487-45A3-50951CBA9EB3</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>A428E56D-23DA-1D48-6D43-2DFFA3033214</targetEntity>
+<targetEntity>8910FD0C-98CE-A6F7-3698-CBB6091E44BC</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

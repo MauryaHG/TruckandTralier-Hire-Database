@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TRUCKCLASS_TRUCKTYPE" directorySegmentName="seg_0" id="FF8116E0-031C-E5CB-F481-E885557B977D">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 05:23:50 UTC</createdTime>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<sourcePk>61517356-BA45-42C4-2E03-0350745E0BC5</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>covers</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A428E56D-23DA-1D48-6D43-2DFFA3033214</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8910FD0C-98CE-A6F7-3698-CBB6091E44BC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
