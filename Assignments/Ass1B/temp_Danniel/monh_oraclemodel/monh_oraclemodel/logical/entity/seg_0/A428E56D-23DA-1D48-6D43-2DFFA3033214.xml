@@ -102,7 +102,7 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="model_id" id="2AC65AED-E283-A171-6BB8-BBA62118CC32">
+<Attribute name="truckmodel_id" id="2AC65AED-E283-A171-6BB8-BBA62118CC32">
 <createdBy>josh</createdBy>
 <createdTime>2022-09-14 03:51:01 UTC</createdTime>
 <generatorID>33AE4ED6-14D6-BF76-B84B-485004D5CBA8</generatorID>

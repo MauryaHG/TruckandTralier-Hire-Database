@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="model_id" id="E0A0DEB4-E17C-BF72-8C71-D2891BF6C039">
+<Attribute name="truckmodel_id" id="E0A0DEB4-E17C-BF72-8C71-D2891BF6C039">
 <createdBy>josh</createdBy>
 <createdTime>2022-09-14 03:32:37 UTC</createdTime>
 <commentInRDBMS><![CDATA[the id given to a model of truck]]></commentInRDBMS>
@@ -29,7 +29,7 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="model_name" id="AB1D4DD8-6527-4389-268C-F38BA79420F3">
+<Attribute name="truckmodel_name" id="AB1D4DD8-6527-4389-268C-F38BA79420F3">
 <createdBy>josh</createdBy>
 <createdTime>2022-09-14 03:33:12 UTC</createdTime>
 <commentInRDBMS><![CDATA[the complete name of the model]]></commentInRDBMS>
