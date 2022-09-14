@@ -1,6 +1,6 @@
 SQL> 
 SQL> /*
-SQL>Databases Week 7 Applied Class Sample Solution
+SQL>FIT3171 Databases Assignment 1B, 2022 Semester 2
 SQL>monh_schema.sql
 SQL>
 SQL>Author: Danniel You, Josh Newnham, Maurya Gamage

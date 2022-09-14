@@ -3,7 +3,7 @@ SET ECHO ON
 SPOOL monh_schema_output.txt
 
 /*
-Databases Week 7 Applied Class Sample Solution
+FIT3171 Databases Assignment 1B, 2022 Semester 2
 monh_schema.sql
 
 Author: Danniel You, Josh Newnham, Maurya Gamage
