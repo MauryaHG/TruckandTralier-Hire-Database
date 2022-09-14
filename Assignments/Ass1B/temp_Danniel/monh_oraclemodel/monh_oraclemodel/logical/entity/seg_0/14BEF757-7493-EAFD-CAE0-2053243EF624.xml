@@ -137,21 +137,6 @@
 <dataTypeSize>15</dataTypeSize>
 <ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="emp_highest_class" id="5F748B76-9929-CB6A-2906-777A487A0856">
-<createdBy>Luigi</createdBy>
-<createdTime>2022-09-11 11:21:34 UTC</createdTime>
-<commentInRDBMS><![CDATA[The highest class of truck that the employee can drive (if they are a driver).]]></commentInRDBMS>
-<ownerDesignName>monh_oraclemodel</ownerDesignName>
-<engineerTo>
-<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>15,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="manager_emp_no" id="D6CF9A22-D8E5-9902-84C6-BED25C610C4B">
 <createdBy>Luigi</createdBy>
 <createdTime>2022-09-11 12:45:19 UTC</createdTime>
@@ -168,6 +153,23 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>4</dataTypePrecision>
 <ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="emp_highest_trckclass_id" id="66551039-21D1-B373-A530-E7B23DE4DD6F">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 05:50:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[the truck class's id (surrogate primary key)]]></commentInRDBMS>
+<generatorID>5A5997C5-6F25-AF1C-C85C-F5CD02869071</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>6F5D825A-9152-F686-7AD6-92CDAF4F0472</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

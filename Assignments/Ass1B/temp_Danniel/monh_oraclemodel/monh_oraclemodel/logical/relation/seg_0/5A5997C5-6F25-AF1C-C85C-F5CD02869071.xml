@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TRUCKCLASS_EMPLOYEE" directorySegmentName="seg_0" id="5A5997C5-6F25-AF1C-C85C-F5CD02869071">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-14 05:50:46 UTC</createdTime>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<sourcePk>61517356-BA45-42C4-2E03-0350745E0BC5</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>can_be_driven_by</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A428E56D-23DA-1D48-6D43-2DFFA3033214</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>14BEF757-7493-EAFD-CAE0-2053243EF624</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
