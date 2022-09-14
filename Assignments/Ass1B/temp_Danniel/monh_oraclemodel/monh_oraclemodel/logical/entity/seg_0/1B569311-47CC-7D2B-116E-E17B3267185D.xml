@@ -73,14 +73,5 @@
 <attributeRef>60646F99-4EC0-CF02-492F-2B6F2FAD8D6C</attributeRef>
 </usedAttributes>
 </identifier>
-<identifier id="1300B5E5-7E69-F291-F447-133C397CC7A7" name="TRAILERCLASS_NK">
-<createdBy>josh</createdBy>
-<createdTime>2022-09-14 04:01:27 UTC</createdTime>
-<ownerDesignName>monh_oraclemodel</ownerDesignName>
-<engineerTo>
-<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
-</engineerTo>
-<newElementsIDs>1274A758-AEE9-FCFA-BB40-1CB3DFD4C4FC,08CF0E33-3E42-41D8-AC52-7A51E0142C59</newElementsIDs>
-</identifier>
 </identifiers>
 </Entity>
