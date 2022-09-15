@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6A56AB61-A3B6-7F06-9A93-6CB53799EEA7" name="TRUCKTYPE">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-15 03:10:24 UTC</createdTime>
+<generatorID>8910FD0C-98CE-A6F7-3698-CBB6091E44BC</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="trcktype_id" id="94ACD869-CF7F-273F-0C46-6EE2DB528111">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-15 03:10:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[The unique identifier of the truck type (surrogate primary key).]]></commentInRDBMS>
+<generatorID>DEE72C3E-A216-2A52-9CBA-DB5EC24DF214</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="make_id" id="6D3CC6B7-7C37-0514-729A-D3A8AC8AECCA">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-15 03:10:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[The unique identifier of the truck make.]]></commentInRDBMS>
+<generatorID>C3DCFB2A-3091-6215-321B-6B5CC045A43B</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F3CDC74-0348-EAEE-4721-BA011660D783" referredColumn="3E3DCB38-21B7-75F5-4F6F-BF9B0171D166"/>
+</associations>
+</Column>
+<Column name="trckmodel_id" id="A7924271-3BC6-06DC-FDA9-15432326CB71">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-15 03:10:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[The unique identifier of a truck model.]]></commentInRDBMS>
+<generatorID>FE6B8C76-4E71-EA0B-2D27-38045A5B1E71</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0867B0B6-5F8B-D883-D99C-525FB0FA6578" referredColumn="1E9A087C-C2EC-958F-3811-CBB184F05245"/>
+</associations>
+</Column>
+<Column name="trckclass_name" id="65095E38-E35A-0CD4-D833-64DF26C3A668">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-15 03:10:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[The name that is used to uniquely identify the truck class.]]></commentInRDBMS>
+<generatorID>FEB119E9-3FA7-A94B-2AED-B9FDA6CB8642</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E69C0D0F-AEF3-39F6-61D6-1037D25903D9" referredColumn="83079750-EE92-CDD9-5451-68211F22FCD8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1AC3C2B1-ABE5-5FBE-287C-7162A8B3C063" name="TRUCKTYPE_PK">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-15 03:10:24 UTC</createdTime>
+<generatorID>227F14C6-4920-A8C9-96F0-EEAC9562D649</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94ACD869-CF7F-273F-0C46-6EE2DB528111"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C2B82184-1F9E-3107-CD83-D41AFA48A14C" name="TRUCKTYPE_NK">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-15 03:10:24 UTC</createdTime>
+<generatorID>A76363BA-0402-85FD-56DC-6610DB4747BF</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D3CC6B7-7C37-0514-729A-D3A8AC8AECCA"/>
+<colUsage columnID="A7924271-3BC6-06DC-FDA9-15432326CB71"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A33E95BA-D1B8-8CE6-6E3A-DD4B09C1FFA7" name="MAKE_TRUCKTYPE">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-15 03:10:24 UTC</createdTime>
+<generatorID>CFD00320-4A95-617E-0E57-8DB1DA723B37</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D3CC6B7-7C37-0514-729A-D3A8AC8AECCA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="963C6640-9B24-A53D-E2C2-5406784CA863" name="TRUCKCLASS_TRUCKTYPE">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-15 03:10:24 UTC</createdTime>
+<generatorID>FF8116E0-031C-E5CB-F481-E885557B977D</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65095E38-E35A-0CD4-D833-64DF26C3A668"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9A334F39-AB1A-01E0-CED5-8D73DEA87EDE" name="TRUCKMODEL_TRUCKTYPE">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-15 03:10:24 UTC</createdTime>
+<generatorID>5825975B-01F3-3CC3-1F7E-657D784A7F7E</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7924271-3BC6-06DC-FDA9-15432326CB71"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

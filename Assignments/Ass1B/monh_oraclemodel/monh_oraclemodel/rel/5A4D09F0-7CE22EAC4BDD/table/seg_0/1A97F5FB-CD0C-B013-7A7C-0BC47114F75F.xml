@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1A97F5FB-CD0C-B013-7A7C-0BC47114F75F" name="TRAILERCLASS">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-15 03:10:24 UTC</createdTime>
+<generatorID>1B569311-47CC-7D2B-116E-E17B3267185D</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="trailclass_code" id="95A06DA9-AEFC-95F3-5083-F3F3E277CC1B">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-15 03:10:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[The unique code of the trailer class.]]></commentInRDBMS>
+<generatorID>73E09BC1-5437-928A-0603-5CEA57B5DF27</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="trailclass_daily_hire_rate" id="BB5E7DA0-DF80-C8E2-5659-6CAA475C7F9A">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-15 03:10:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[The daily hire rate of a trailer that is determined by the trailer class.]]></commentInRDBMS>
+<generatorID>4F839D1B-A95B-B257-9931-7F31B09FB23A</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="00A439E8-9AC2-5C50-F2B0-16D9B2C10FE7" name="TRAILERCLASS_PK">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-15 03:10:24 UTC</createdTime>
+<generatorID>872E9EB7-222F-CA64-9755-0EECD87A9906</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95A06DA9-AEFC-95F3-5083-F3F3E277CC1B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

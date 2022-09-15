@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1719647A-5739-85B1-1AC0-EF8E3685904E" containerWithKeyObject="69016C3D-EF82-FF5D-585B-F492C149FAAA" localFKIndex="F4C8F316-E36A-9496-6C7A-41538A1429C7" name="COMBO_COMBO_PURPOSE">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-15 03:10:24 UTC</createdTime>
+<generatorID>55AA26E2-564E-11BE-9CC7-C974D399B08A</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<referredTableLongName>COMBO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1B6AD9C3-7330-163B-CC0D-695A1D4B8322</referredTableID>
+<keyObject>FA4E5970-5166-F850-71F2-4CEA47FE3881</keyObject>
+<referredKeyID>FA4E5970-5166-F850-71F2-4CEA47FE3881</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>combo_code</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

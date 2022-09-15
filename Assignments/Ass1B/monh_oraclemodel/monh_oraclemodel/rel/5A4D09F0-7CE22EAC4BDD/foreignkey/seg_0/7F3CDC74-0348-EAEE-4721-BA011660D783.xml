@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7F3CDC74-0348-EAEE-4721-BA011660D783" containerWithKeyObject="6A56AB61-A3B6-7F06-9A93-6CB53799EEA7" localFKIndex="A33E95BA-D1B8-8CE6-6E3A-DD4B09C1FFA7" name="MAKE_TRUCKTYPE">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-15 03:10:24 UTC</createdTime>
+<generatorID>CFD00320-4A95-617E-0E57-8DB1DA723B37</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<referredTableLongName>MAKE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F881B251-5DFB-B347-34BD-93DB7B2D8295</referredTableID>
+<keyObject>2B56DD35-DFE7-D6ED-CB8B-DC18E18A5321</keyObject>
+<referredKeyID>2B56DD35-DFE7-D6ED-CB8B-DC18E18A5321</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>make_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

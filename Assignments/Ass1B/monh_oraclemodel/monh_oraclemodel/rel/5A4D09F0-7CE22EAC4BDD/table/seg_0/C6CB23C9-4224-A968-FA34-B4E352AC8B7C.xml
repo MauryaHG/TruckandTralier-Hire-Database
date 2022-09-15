@@ -1,0 +1,275 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C6CB23C9-4224-A968-FA34-B4E352AC8B7C" name="JOB">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-15 03:10:24 UTC</createdTime>
+<generatorID>B72D3F7D-AC8A-5A58-F179-7F484D5C239B</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="job_no" id="13E1AF62-C7DB-56E9-E7CC-19397A868B43">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-15 03:10:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[The unique identifier number of the job.]]></commentInRDBMS>
+<generatorID>97B12127-28A9-E293-5399-9D3BCF659E3E</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="job_pickup_datetime" id="F036FB70-46AD-15DE-4A64-CDB85D1DFB0F">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-15 03:10:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[The actual pickup date and time for the job.]]></commentInRDBMS>
+<generatorID>6DB04FBC-E1BA-B3B1-51C6-4BC46024F876</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="job_intended_dropoff_datetime" id="ED901FE8-A5FD-C516-5369-1A2327F69A2E">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-15 03:10:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[The intended drop off date and time for the job.]]></commentInRDBMS>
+<generatorID>824F9494-0BC5-8799-ACEF-A45A47F7DAAF</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="job_actual_dropoff_datetime" id="B5B8937B-B344-A7FF-F895-29B83E96DBE9">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-15 03:10:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[The actual drop off date and time for the job.]]></commentInRDBMS>
+<generatorID>213A5588-5F96-AEAB-A20D-FA4EE106F6A9</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="job_cost" id="89CD39A6-D6A3-A5A8-FA93-AEB40ABEB129">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-15 03:10:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[The cost of the job (if different to quote cost).]]></commentInRDBMS>
+<generatorID>658EA270-249C-9C6C-2C90-874C811B3BC5</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="job_date_paid" id="446D4138-D3D7-CCB7-C885-E83DCBF7BBA6">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-15 03:10:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[The date on which the customer paid for the job.]]></commentInRDBMS>
+<generatorID>45D2B945-FD67-5CA4-022F-6662DFD00267</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quote_no" id="B84C1A87-7DE6-E0C1-E46A-1081D20DC412">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-15 03:10:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[The unique identification number of the quote.]]></commentInRDBMS>
+<generatorID>642E385B-B2C3-4548-D099-C18DF4DA7082</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7B8CEB5D-AD7E-85C4-E0D7-93808D96FAFC" referredColumn="551897EC-47FA-76DA-9CF7-660C5471B6AE"/>
+</associations>
+</Column>
+<Column name="clerk_no" id="50F5F999-3132-C95F-76EF-D09710B6A869">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-15 03:10:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[The unique identification number of the employee.]]></commentInRDBMS>
+<generatorID>4C7B9EE6-EE46-B2ED-E58B-641A3DBD10B8</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="414789E7-FFD4-83CD-464B-2637ED969321" referredColumn="7FBB241E-8B49-DFF4-49E3-E786F1833702"/>
+</associations>
+</Column>
+<Column name="combo_code" id="05D59D31-B25F-01B7-3D87-C945A19D6A2B">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-15 03:10:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[The unique identification code (prefixed with the letter "C") for the truck and trailer combo.]]></commentInRDBMS>
+<generatorID>885A852E-F327-1F64-8B82-B09CA536AF8C</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="70EB7E54-BEA4-1388-B590-10994BBD5F31" referredColumn="5347A951-6D6E-6D8C-483A-2AA6B57D5484"/>
+</associations>
+</Column>
+<Column name="driver_emp_no" id="AD7B4043-A624-D403-36FE-E7D0B1537FB0">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-15 03:10:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[The unique identification number of the employee.]]></commentInRDBMS>
+<generatorID>F9E60A76-2A57-7EC2-4934-6C85E24272DA</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FE7A0B13-DA2A-FC11-1163-C1C37EF38E48" referredColumn="7FBB241E-8B49-DFF4-49E3-E786F1833702"/>
+</associations>
+</Column>
+<Column name="mechanic_emp_no" id="185F60FA-1475-F934-85FA-3C807DE7B7F5">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-15 03:10:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[The unique identification number of the employee.]]></commentInRDBMS>
+<generatorID>95EC804D-2C6F-4486-CA32-C832F1B7EC97</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9627BA96-0137-A7F2-7648-5F972D0B7D85" referredColumn="7FBB241E-8B49-DFF4-49E3-E786F1833702"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3F225024-DC54-F58F-09ED-34CAC333A63B" name="JOB_PK">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-15 03:10:24 UTC</createdTime>
+<generatorID>BD1B205B-9645-C64A-C4AC-E9E0F35CE805</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13E1AF62-C7DB-56E9-E7CC-19397A868B43"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="31764C86-9846-F7F1-9C3D-5BBFA7A97E67" name="JOB__IDX">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-15 03:10:24 UTC</createdTime>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>86716048-A069-D6A4-3560-FDCDA237CE9D</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="AD7B4043-A624-D403-36FE-E7D0B1537FB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DFFBCE43-A468-5A82-ABFC-9FE3A0C0A771" name="JOB__IDXv1">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-15 03:10:24 UTC</createdTime>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>D5E8E225-F770-DF7E-06C0-7616B836DE4C</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="185F60FA-1475-F934-85FA-3C807DE7B7F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8739D27D-78F3-F1F9-E497-8AEF37D93070" name="JOB__IDXv2">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-15 03:10:24 UTC</createdTime>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>36F2559A-92F9-E4C7-1136-B7C7D6AA92FE</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B84C1A87-7DE6-E0C1-E46A-1081D20DC412"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E61A38F-8220-1ACF-2C9A-F75DFE1E46CC" name="CLERK_JOB">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-15 03:10:24 UTC</createdTime>
+<generatorID>C10B8F3C-C52E-93FA-851F-70EE57A7F5F2</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50F5F999-3132-C95F-76EF-D09710B6A869"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="88269A0F-D4C8-9F38-DEC7-14F57EEB9C19" name="COMBO_JOB">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-15 03:10:24 UTC</createdTime>
+<generatorID>8476ABE7-071C-77D4-9918-69626F46E260</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05D59D31-B25F-01B7-3D87-C945A19D6A2B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1E7D09FB-BDBC-ADDA-46C1-955B3622B661" name="DRIVER_JOB">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-15 03:10:24 UTC</createdTime>
+<generatorID>86716048-A069-D6A4-3560-FDCDA237CE9D</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD7B4043-A624-D403-36FE-E7D0B1537FB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="24DB5AD9-7754-7FB9-4FC2-31112FE86FC6" name="MECHANIC_JOB">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-15 03:10:24 UTC</createdTime>
+<generatorID>D5E8E225-F770-DF7E-06C0-7616B836DE4C</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="185F60FA-1475-F934-85FA-3C807DE7B7F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45306BDA-A670-6930-92F8-CBAD196ED693" name="QUOTE_JOB">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-15 03:10:24 UTC</createdTime>
+<generatorID>36F2559A-92F9-E4C7-1136-B7C7D6AA92FE</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B84C1A87-7DE6-E0C1-E46A-1081D20DC412"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -154,7 +154,7 @@
 <dataTypePrecision>4</dataTypePrecision>
 <ownDataTypeParameters>,4,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="trckclass_name" id="A0A7419C-AA5D-12AF-A86A-9C194ACBB7A8">
+<Attribute name="highest_trckclass_name" id="A0A7419C-AA5D-12AF-A86A-9C194ACBB7A8">
 <createdBy>Luigi</createdBy>
 <createdTime>2022-09-15 02:52:14 UTC</createdTime>
 <commentInRDBMS><![CDATA[The name that is used to uniquely identify the truck class.]]></commentInRDBMS>

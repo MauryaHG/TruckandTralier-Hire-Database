@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E69C0D0F-AEF3-39F6-61D6-1037D25903D9" containerWithKeyObject="6A56AB61-A3B6-7F06-9A93-6CB53799EEA7" localFKIndex="963C6640-9B24-A53D-E2C2-5406784CA863" name="TRUCKCLASS_TRUCKTYPE">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-15 03:10:24 UTC</createdTime>
+<generatorID>FF8116E0-031C-E5CB-F481-E885557B977D</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<referredTableLongName>TRUCKCLASS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AA52097F-7AB1-05D9-B34D-12117255BE05</referredTableID>
+<keyObject>FED46042-45CF-7BC6-AD3D-1E4E8EB6BC9E</keyObject>
+<referredKeyID>FED46042-45CF-7BC6-AD3D-1E4E8EB6BC9E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>trckclass_name</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

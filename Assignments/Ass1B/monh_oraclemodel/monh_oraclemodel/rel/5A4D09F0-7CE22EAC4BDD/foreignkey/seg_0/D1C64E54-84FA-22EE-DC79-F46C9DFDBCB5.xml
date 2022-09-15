@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D1C64E54-84FA-22EE-DC79-F46C9DFDBCB5" containerWithKeyObject="189CC5B9-F116-BC33-23E0-FA099D02C2E9" localFKIndex="DDBE381E-F10B-A573-241C-0D13D6E640A3" name="TRAILERCLASS_TRAILER">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-15 03:10:24 UTC</createdTime>
+<generatorID>5A1807EF-8479-5FAE-39CB-59783D466F19</generatorID>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<referredTableLongName>TRAILERCLASS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1A97F5FB-CD0C-B013-7A7C-0BC47114F75F</referredTableID>
+<keyObject>00A439E8-9AC2-5C50-F2B0-16D9B2C10FE7</keyObject>
+<referredKeyID>00A439E8-9AC2-5C50-F2B0-16D9B2C10FE7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>trailclass_code</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
