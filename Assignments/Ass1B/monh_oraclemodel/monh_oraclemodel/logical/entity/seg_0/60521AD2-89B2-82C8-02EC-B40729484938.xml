@@ -18,7 +18,7 @@
 <Attribute name="combpurp_id" id="FAF25663-3DE9-CF15-2FCC-C18942333CF2">
 <createdBy>Luigi</createdBy>
 <createdTime>2022-09-15 02:16:55 UTC</createdTime>
-<commentInRDBMS><![CDATA[The unique identifier for the combo purpose.]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[The unique identifier for the combo purpose (surrogate primary key).]]></commentInRDBMS>
 <ownerDesignName>monh_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>

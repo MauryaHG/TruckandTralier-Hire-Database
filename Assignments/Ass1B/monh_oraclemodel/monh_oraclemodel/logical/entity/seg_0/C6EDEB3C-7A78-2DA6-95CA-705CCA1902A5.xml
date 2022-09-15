@@ -61,21 +61,21 @@
 <dataTypePrecision>4</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="trailclass_id" id="8F2E2597-0D00-99D7-A406-F737112FD23B">
+<Attribute name="trailclass_code" id="7844619E-1480-63EF-BA57-D8184653D22E">
 <createdBy>Luigi</createdBy>
-<createdTime>2022-09-14 05:27:11 UTC</createdTime>
-<commentInRDBMS><![CDATA[The unique identifier of the trailer class (surrogate primary key).]]></commentInRDBMS>
+<createdTime>2022-09-15 02:52:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[The unique code of the trailer class.]]></commentInRDBMS>
 <generatorID>9A7D1B91-D7C7-BA95-9DEB-E5F1E78C10E0</generatorID>
 <ownerDesignName>monh_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
 </engineerTo>
-<referedAttribute>60646F99-4EC0-CF02-492F-2B6F2FAD8D6C</referedAttribute>
+<referedAttribute>73E09BC1-5437-928A-0603-5CEA57B5DF27</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

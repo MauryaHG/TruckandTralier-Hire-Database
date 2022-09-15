@@ -15,19 +15,19 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="trckclass_id" id="6F5D825A-9152-F686-7AD6-92CDAF4F0472">
-<createdBy>josh</createdBy>
-<createdTime>2022-09-14 03:58:11 UTC</createdTime>
-<commentInRDBMS><![CDATA[The unique identifier of the truck class (surrogate primary key).]]></commentInRDBMS>
+<Attribute name="trckclass_name" id="CABBB479-97B7-6B91-DB61-CEF9122C88E0">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-15 02:49:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[The name that is used to uniquely identify the truck class.]]></commentInRDBMS>
 <ownerDesignName>monh_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="trkclass_daily_hire_rate" id="0518AA91-DBF1-348C-F963-066954466B0D">
 <createdBy>Luigi</createdBy>
@@ -69,19 +69,10 @@
 <item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
 </engineerTo>
 <pk>true</pk>
-<newElementsIDs>6F5D825A-9152-F686-7AD6-92CDAF4F0472</newElementsIDs>
+<newElementsIDs>CABBB479-97B7-6B91-DB61-CEF9122C88E0</newElementsIDs>
 <usedAttributes>
-<attributeRef>6F5D825A-9152-F686-7AD6-92CDAF4F0472</attributeRef>
+<attributeRef>CABBB479-97B7-6B91-DB61-CEF9122C88E0</attributeRef>
 </usedAttributes>
-</identifier>
-<identifier id="4DDB6AD5-0D4F-85C0-8CA0-9E2E168250EA" name="TRUCKCLASS_NK">
-<createdBy>josh</createdBy>
-<createdTime>2022-09-14 03:56:47 UTC</createdTime>
-<ownerDesignName>monh_oraclemodel</ownerDesignName>
-<engineerTo>
-<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
-</engineerTo>
-<newElementsIDs>D3B417B2-5C4F-1C3E-33E3-DD4EE159B681,33AE4ED6-14D6-BF76-B84B-485004D5CBA8</newElementsIDs>
 </identifier>
 </identifiers>
 </Entity>

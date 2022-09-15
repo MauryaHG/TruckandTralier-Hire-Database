@@ -99,21 +99,21 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="trckclass_id" id="5CD170DA-F1DB-4E45-A290-92127541645C">
-<createdBy>josh</createdBy>
-<createdTime>2022-09-14 03:58:54 UTC</createdTime>
+<Attribute name="trckclass_name" id="A478EF90-1234-F395-51EA-AE7A7BF1B05D">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-15 02:52:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[The name that is used to uniquely identify the truck class.]]></commentInRDBMS>
 <generatorID>8F5A20E7-F761-EA90-8896-28F639ADBCF3</generatorID>
 <ownerDesignName>monh_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
 </engineerTo>
-<referedAttribute>6F5D825A-9152-F686-7AD6-92CDAF4F0472</referedAttribute>
+<referedAttribute>CABBB479-97B7-6B91-DB61-CEF9122C88E0</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>4</dataTypePrecision>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
