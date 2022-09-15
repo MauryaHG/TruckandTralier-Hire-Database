@@ -15,6 +15,20 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="combpurp_id" id="FAF25663-3DE9-CF15-2FCC-C18942333CF2">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-15 02:16:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[The unique identifier for the combo purpose.]]></commentInRDBMS>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="purpose_no" id="FF28978D-11A4-8A89-F190-C38FB366FA14">
 <createdBy>Luigi</createdBy>
 <createdTime>2022-09-13 06:37:29 UTC</createdTime>
@@ -57,6 +71,18 @@
 <item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
 </engineerTo>
 <pk>true</pk>
+<usedAttributes>
+<attributeRef>FAF25663-3DE9-CF15-2FCC-C18942333CF2</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="24282B38-DBBE-B55F-F183-D540817E6FF4" name="COMBO_PURPOSE_NK">
+<createdBy>Luigi</createdBy>
+<createdTime>2022-09-15 02:21:31 UTC</createdTime>
+<ownerDesignName>monh_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
+</engineerTo>
+<newElementsIDs>FF28978D-11A4-8A89-F190-C38FB366FA14,2BFFC69F-6843-EAAD-56B5-FBF114058D87</newElementsIDs>
 <usedAttributes>
 <attributeRef>FF28978D-11A4-8A89-F190-C38FB366FA14</attributeRef>
 <attributeRef>2BFFC69F-6843-EAAD-56B5-FBF114058D87</attributeRef>
