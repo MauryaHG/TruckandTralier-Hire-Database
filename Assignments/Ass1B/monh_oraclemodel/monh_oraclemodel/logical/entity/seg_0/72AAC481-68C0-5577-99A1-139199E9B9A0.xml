@@ -18,7 +18,7 @@
 <Attribute name="trckmodel_id" id="E0A0DEB4-E17C-BF72-8C71-D2891BF6C039">
 <createdBy>josh</createdBy>
 <createdTime>2022-09-14 03:32:37 UTC</createdTime>
-<commentInRDBMS><![CDATA[the id given to a model of truck]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[The unique identifier of a truck model.]]></commentInRDBMS>
 <ownerDesignName>monh_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
@@ -32,7 +32,7 @@
 <Attribute name="trckmodel_name" id="AB1D4DD8-6527-4389-268C-F38BA79420F3">
 <createdBy>josh</createdBy>
 <createdTime>2022-09-14 03:33:12 UTC</createdTime>
-<commentInRDBMS><![CDATA[the complete name of the model]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[The name of the truck model.]]></commentInRDBMS>
 <ownerDesignName>monh_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>

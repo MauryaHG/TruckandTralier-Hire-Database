@@ -18,7 +18,7 @@
 <Attribute name="trckclass_id" id="6F5D825A-9152-F686-7AD6-92CDAF4F0472">
 <createdBy>josh</createdBy>
 <createdTime>2022-09-14 03:58:11 UTC</createdTime>
-<commentInRDBMS><![CDATA[the truck class's id (surrogate primary key)]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[The unique identifier of the truck class (surrogate primary key).]]></commentInRDBMS>
 <ownerDesignName>monh_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>

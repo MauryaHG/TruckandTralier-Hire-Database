@@ -18,7 +18,7 @@
 <Attribute name="trailclass_id" id="60646F99-4EC0-CF02-492F-2B6F2FAD8D6C">
 <createdBy>josh</createdBy>
 <createdTime>2022-09-14 04:00:44 UTC</createdTime>
-<commentInRDBMS><![CDATA[the id of the trailer's class (surrogate primary key)]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[The unique identifier of the trailer class (surrogate primary key).]]></commentInRDBMS>
 <ownerDesignName>monh_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>

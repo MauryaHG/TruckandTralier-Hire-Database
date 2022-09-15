@@ -18,7 +18,7 @@
 <Attribute name="trailmodel_id" id="4537933E-F024-7256-8C4E-D40A9837E858">
 <createdBy>josh</createdBy>
 <createdTime>2022-09-14 03:46:35 UTC</createdTime>
-<commentInRDBMS><![CDATA[the trailer model's id]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[The unique identifier of the trailer model.]]></commentInRDBMS>
 <ownerDesignName>monh_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
@@ -32,7 +32,7 @@
 <Attribute name="trailmodel_name" id="2C5610DC-0C22-A09E-CA9A-98B4B0A54FA6">
 <createdBy>josh</createdBy>
 <createdTime>2022-09-14 03:47:06 UTC</createdTime>
-<commentInRDBMS><![CDATA[the trailer model name]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[The name of the trailer model.]]></commentInRDBMS>
 <ownerDesignName>monh_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>

@@ -18,7 +18,7 @@
 <Attribute name="trcktype_id" id="DEE72C3E-A216-2A52-9CBA-DB5EC24DF214">
 <createdBy>josh</createdBy>
 <createdTime>2022-09-14 05:36:58 UTC</createdTime>
-<commentInRDBMS><![CDATA[the id of the truck type (surrogate primary key)]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[The unique identifier of the truck type (surrogate primary key).]]></commentInRDBMS>
 <ownerDesignName>monh_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
@@ -32,7 +32,7 @@
 <Attribute name="make_id" id="C3DCFB2A-3091-6215-321B-6B5CC045A43B">
 <createdBy>Luigi</createdBy>
 <createdTime>2022-09-14 05:22:54 UTC</createdTime>
-<commentInRDBMS><![CDATA[the id of the make]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[The unique identifier of the truck make.]]></commentInRDBMS>
 <generatorID>CFD00320-4A95-617E-0E57-8DB1DA723B37</generatorID>
 <ownerDesignName>monh_oraclemodel</ownerDesignName>
 <engineerTo>
@@ -48,7 +48,7 @@
 <Attribute name="trckmodel_id" id="FE6B8C76-4E71-EA0B-2D27-38045A5B1E71">
 <createdBy>Luigi</createdBy>
 <createdTime>2022-09-14 05:23:28 UTC</createdTime>
-<commentInRDBMS><![CDATA[the id given to a model of truck]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[The unique identifier of a truck model.]]></commentInRDBMS>
 <generatorID>5825975B-01F3-3CC3-1F7E-657D784A7F7E</generatorID>
 <ownerDesignName>monh_oraclemodel</ownerDesignName>
 <engineerTo>
@@ -64,7 +64,7 @@
 <Attribute name="trckclass_id" id="3E8A2F05-3FEE-0979-BC4D-6A7F0191F8C0">
 <createdBy>Luigi</createdBy>
 <createdTime>2022-09-14 05:23:50 UTC</createdTime>
-<commentInRDBMS><![CDATA[the truck class's id (surrogate primary key)]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[The unique identifier of the truck class (surrogate primary key).]]></commentInRDBMS>
 <generatorID>FF8116E0-031C-E5CB-F481-E885557B977D</generatorID>
 <ownerDesignName>monh_oraclemodel</ownerDesignName>
 <engineerTo>

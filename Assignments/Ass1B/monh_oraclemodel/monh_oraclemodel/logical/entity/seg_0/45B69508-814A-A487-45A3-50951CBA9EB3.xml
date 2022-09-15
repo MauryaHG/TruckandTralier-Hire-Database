@@ -18,7 +18,7 @@
 <Attribute name="make_id" id="FADB5328-CB5C-6FCA-2BB6-CC4D8E40200B">
 <createdBy>josh</createdBy>
 <createdTime>2022-09-14 02:49:17 UTC</createdTime>
-<commentInRDBMS><![CDATA[the id of the make]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[The unique identifier of the truck make.]]></commentInRDBMS>
 <ownerDesignName>monh_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
@@ -32,7 +32,7 @@
 <Attribute name="make_name" id="F7FF6ECA-7014-F691-B65D-9B984F0649A3">
 <createdBy>josh</createdBy>
 <createdTime>2022-09-14 03:37:43 UTC</createdTime>
-<commentInRDBMS><![CDATA[the value of the make (the full name)]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[The name of the truck make.]]></commentInRDBMS>
 <ownerDesignName>monh_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>

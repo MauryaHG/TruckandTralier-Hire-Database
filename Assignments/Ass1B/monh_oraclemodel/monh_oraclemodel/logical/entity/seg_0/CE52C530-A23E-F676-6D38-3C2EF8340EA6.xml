@@ -18,7 +18,7 @@
 <Attribute name="manufacturer_id" id="53D1E4AD-11C2-9CB0-CF1E-FD1C33C69C77">
 <createdBy>josh</createdBy>
 <createdTime>2022-09-14 02:53:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[the manufacturer's id]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[The unique identifier of the trailer manufacturer.]]></commentInRDBMS>
 <ownerDesignName>monh_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>
@@ -32,7 +32,7 @@
 <Attribute name="manufacturer_name" id="775158E3-8219-D1FD-EF17-11DCF5305F5B">
 <createdBy>josh</createdBy>
 <createdTime>2022-09-14 02:55:03 UTC</createdTime>
-<commentInRDBMS><![CDATA[the name of the manufacturer]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[The name of the trailer manufacturer.]]></commentInRDBMS>
 <ownerDesignName>monh_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="5A4D09F0-585E-C5A9-98D2-7CE22EAC4BDD" value="true"/>

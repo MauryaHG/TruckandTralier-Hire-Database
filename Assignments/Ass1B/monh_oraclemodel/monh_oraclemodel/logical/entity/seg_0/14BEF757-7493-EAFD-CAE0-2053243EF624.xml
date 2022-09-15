@@ -154,10 +154,10 @@
 <dataTypePrecision>4</dataTypePrecision>
 <ownDataTypeParameters>,4,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="emp_highest_trckclass_id" id="66551039-21D1-B373-A530-E7B23DE4DD6F">
+<Attribute name="highest_trckclass_id" id="66551039-21D1-B373-A530-E7B23DE4DD6F">
 <createdBy>Luigi</createdBy>
 <createdTime>2022-09-14 05:50:46 UTC</createdTime>
-<commentInRDBMS><![CDATA[the truck class's id (surrogate primary key)]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[The unique identifier of the truck class (surrogate primary key).]]></commentInRDBMS>
 <generatorID>5A5997C5-6F25-AF1C-C85C-F5CD02869071</generatorID>
 <ownerDesignName>monh_oraclemodel</ownerDesignName>
 <engineerTo>
